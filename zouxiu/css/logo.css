@@ -1,0 +1,108 @@
+.cl1 {
+	width: 100%;
+	height: 100%;
+	background: #f8f3f7;
+	font-family: "微软雅黑";
+	}
+.top {
+	width: 100%;
+	height: 1rem;
+	background: #a90506;
+	position: relative;
+}
+.zhu {
+	font-size:0.38rem;
+	width: 100%;
+	font-weight: bold;
+	color:#f3efee ;
+	text-align: center;
+	line-height: 1rem;
+	}
+
+.section{
+	width: 100%;
+	height: 5.42rem;
+	margin-top: 0.3rem;
+	font-size: 0;
+}
+.section .inp{
+	width: 5.8rem;
+	height: 0.9rem;
+	padding: 0;
+	margin: 0 auto 0.8rem;
+	background: #fff;
+	border-radius:5px ;
+	}
+
+.section .inp input{
+	border: 0;
+	width: 100%;
+	background: none;
+	outline: none;
+	height:0.9rem ;
+	line-height: 0.9rem;
+	font-size: 0.26rem;
+	color: #b4b4b4;
+	text-indent: 0.2rem;
+	}
+	.btn{
+		height: 1.29rem;
+	}
+	.btn input{
+		margin-left: 0.5rem;
+		margin-right: 0.09rem;
+		float: left;
+		/*line-height: 1.43rem;*/
+		width: 0.41rem;
+		height: 0.41rem;
+	}
+	.btn span,.btn1 span{
+		float: left;
+		line-height: 0.41rem;
+		font-size: 0.28rem;
+		margin-right: 0.37rem;
+	}
+	#wang{
+		color: #fe0f52;
+	}
+.btn1 input{
+	margin-left: 0.5rem;
+		margin-right: 0.09rem;
+		float: left;
+		width: 0.41rem;
+		height: 0.41rem;
+}
+.btnn1 ,.btnn3{
+	width: 100%;
+	height: 0.9rem;
+	margin-bottom: 0.13rem;
+	
+}
+.btnn1 .btnn2{
+	width: 5.8rem;
+	height: 0.9rem;
+	margin-left: 0.3rem;
+	font-size: 0.34rem;
+	color: #fff;
+	border:1px solid #820000;
+	background: #c60808;
+	border-radius: 5px;
+	
+}
+.btnn3 .btnn4{
+	width: 5.8rem;
+	height: 0.9rem;
+	margin-left: 0.3rem;
+	font-size: 0.34rem;
+	color: #fff;
+	border:1px solid #000;
+	background: #4d4d4d;
+	border-radius: 5px;
+}
+#tishi{
+	font-size: 0.3rem;
+	
+	width: 100%;
+	margin-left: 2rem;
+	margin-top: 0.8rem;
+}

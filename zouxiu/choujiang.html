@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		
+
+		
+		
+		
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="icons/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="js/download/font_xn1yqmwxvftotj4i/iconfont.css" />
+		
+		<style type="text/css">
+				body,html {
+				width: 100%;
+				height: 100%;
+			}
+			
+			body{
+				height: 100%;
+				display: flex;
+				flex-flow: column;
+				overflow: hidden;
+			}
+			.chou ul{width: 120%;height: 100%;}
+			.chou{
+				width: 6.1rem;
+				height: 6.1rem;
+				margin: 0.14rem;
+				
+				/*background: #a90506;*/
+			}
+			.chou li{
+				float: left;
+				display: inline-block;
+				width: 2rem;
+				height: 2rem;
+				background: #a90506;
+				font-size: 0.5rem;
+				line-height: 2rem;
+				text-align: center;
+				color:#a90506 ;
+			}
+			.chou li:nth-child(5){
+				background: #640000;
+		
+				color: #fff;
+			}
+			.header span{
+				float: left;
+				font-size: 0.54rem;
+				color: #fff;
+				margin-left: 0.32rem;
+			}
+			.header h1{margin-left: 1.8rem;}
+			.people{
+				flex: 1;
+				
+				width: 5.4rem;
+				background: #ff4948;
+				margin: 0.14rem;
+				padding-left: 0.3rem;
+				padding-right: 0.3rem;
+				overflow:auto;
+			}
+		
+			.people li{
+				height: 0.58rem;
+				width: 5.6rem;
+				
+			}
+			.people li span{
+				float: left;
+
+				font-size:0.28rem ;
+			}
+			.people li .user{
+				display: block;
+				/*float: left;*/
+				/*width: 0.4rem;*/
+				white-space: nowrap;
+				overflow:hidden ;
+				text-overflow: ellipsis;
+				width: 0.8rem;
+				margin-left: 0.2rem;
+			}
+			li.active{
+				background: #fff;
+			}
+			
+		</style>
+		<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			window.PointerEvent=void 0
+		</script>
+	
+
+		
+	</head>
+	<body>
+		
+			<div class="header">
+				<span class="fan">&lt;</span>
+				<h1>新品上市</h1>
+				<button><i class="iconfont">&#xe61b;</i></button>
+			</div>
+			
+				<div class="chou">
+					<ul id="chouj">
+						<li id="1">一等奖</li>
+						<li id="2">二等奖</li>
+						<li id="3">三等奖</li>
+						<li id="8">八等奖</li>
+						<li id="btn">抽奖</li>
+						<li id="4">四等奖</li>
+						<li id="7">七等奖</li>
+						<li id="6">六等奖</li>
+						<li id="5">五等奖</li>
+					</ul>
+				</div>
+			 <div class="people">
+				<ul id="lolo">
+					<!--<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>
+					<li>
+						<span class="jia">一等奖</span>
+						<span class="user">zylzyl</span>
+						<span class="date"></span>
+					</li>-->
+				</ul>
+			</div>
+				
+				
+				
+	
+			
+			
+	</body>
+		<script type="text/javascript">
+		window.onload=function(){
+			var myscoll = new IScroll(".people")
+			function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+			var timer=0;
+			var flag=true;
+			var i=0;
+			var arr=[0,1,2,5,8,7,6,3]
+			$("#btn").on("tap",function(){
+				if(flag==true){
+					function fm(){
+					window.clearTimeout(timer)
+					
+					$("#chouj li").eq(arr[i]).addClass("active").siblings().removeClass("active")
+					
+					if(i>8){
+						i=0
+					}else{
+						i+=1;
+					}
+					timer=window.setTimeout(fm,60)
+				
+					}
+					fm()
+					
+					flag=false;
+			
+				
+				}else{
+					window.clearTimeout(timer)
+				if($(".active")){
+				
+					$.ajax({
+						type:"get",
+						url:"http://datainfo.duapp.com/lottery/fruitsubmit.php",
+						dataType:"json",
+						data:{
+							userID:GetQueryString("user"),
+							fruit:$(".active")[0].id
+						},
+						success:function(data){
+							if(data==0){
+								alert("您已经抽过奖")
+							}else if(data==1){
+								alert("抽奖成功")
+							}else if(data==2){
+								alert("您可以抽奖")
+							}else if(data==3){
+								alert("请求数据错误")
+							}
+						}
+					});
+				
+				
+				}
+				
+				
+				
+				
+				}
+//				fm()
+			})
+			$.ajax({
+				type:"get",
+				url:" http://datainfo.duapp.com/lottery/getsuerfr.php",
+				dataType:"jsonp",
+				success:function(data){
+					if(data==0){
+						alert("没有搜索到结果")
+					}else{
+						console.log(data)
+						var li=""
+						var tt=""
+						$.each(data, function(i) {
+							if(data[i]["fruit"]==1){
+								tt="一等奖"
+							}else if(data[i]["fruit"]==2){
+								tt="二等奖"
+							}else if(data[i]["fruit"]==3){
+								tt="三等奖"
+							}else if(data[i]["fruit"]==4){
+								tt="四等奖"
+							}else if(data[i]["fruit"]==5){
+								tt="五等奖"
+							}else if(data[i]["fruit"]==6){
+								tt="六等奖"
+							}else if(data[i]["fruit"]==7){
+								tt="七等奖"
+							}else {
+								tt="八等奖"
+							}
+							
+							li+='<li><span class="jia">'+tt+'</span>'+
+							'<span class="user">'+data[i]["userID"]+'</span>'+
+							'<span class="date">'+data[i]["timer"]+'</span></li>'
+					
+						});
+						$("#lolo").html(li)
+					}
+				}
+			});
+				
+			$(".fan").on("tap",function(){
+				window.history.go(-1)
+			})
+			
+			
+		}
+	</script>
+</html>

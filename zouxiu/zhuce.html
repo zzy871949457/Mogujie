@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+
+		<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="cl1">
+			<div class="top">
+				<div><img src="img/huanying/zc.jpg" alt="" class="btn4"/></div>
+				<div class="zhu">用户注册</div>
+			</div>
+			<div class="section">
+					<div>
+						<span>账户名称：</span>
+						<input type="text" name="name" id="name" placeholder="请输入账户"/>
+						<p class="ts1"></p>
+					</div>
+					<div>
+						<span>登录密码：</span>
+						<input type="text"  id="pwd1" placeholder="请输入密码"/>
+						<p class="ts2"></p>
+					</div>
+					<div>
+						<span>确认密码：</span>
+						<input type="text"  id="pwd2" placeholder="请输入密码"/>
+						<p class="ts3"></p>
+					</div>
+					<div class="tishi"></div>
+			</div>
+			<div class="btn">
+				<button class="btn1">确认注册</button>
+			</div>
+		</div>
+
+		
+
+	</body>
+
+	<script type="text/javascript">
+			$(".btn4").on("tap",function(){
+				window.history.go(-1)
+			})
+			var flage1=false;
+			var flage2=false;
+			var flage3=false;
+			$("#name").on("focus",function(){
+			$(".tishi").html("")
+			$("#name").on("blur",function(){
+			if($("#name").val().length==0){
+				$(".ts1").html("用户名不能为空哦！")
+				flage1=false;
+			}else{
+				$(".ts1").html("")
+				flage1=true;
+				}
+			})
+			
+		})
+			$("#pwd1").on("focus",function(){
+			
+			$("#pwd1").on("blur",function(){
+			if($("#pwd1").val().length==0){
+				$(".ts2").html("密码不能为！")
+				flage2=false;
+			}else{
+				$(".ts2").html("")
+				flage2=true;
+			}
+			})
+			
+		})
+			$("#pwd2").on("focus",function(){
+			
+			$("#pwd2").on("blur",function(){
+			if($("#pwd2").val().length==0){
+				$(".ts3").html("密码不能为空")
+				flage3=false;
+			}else if($("#pwd2").val()!=$("#pwd1").val()){
+				$(".ts3").html("两次密码不一致")
+				flage3=false;
+			}
+			else{
+				$(".ts3").html("")
+				flage3=true;
+			}
+			})
+			
+		})
+		
+		$(".btn1").on("tap",function(){
+			if(flage1==true && flage2==true && flage3==true){
+				$.ajax({
+					type:"GET",
+					url:"http://datainfo.duapp.com/shopdata/userinfo.php",
+					dataType:"json",
+					data:{
+						status:'register',
+						userID:$("#name").val(),
+						password:$("#pwd1").val()
+					},
+					success:function(data){
+						if(data==1){
+							$(".tishi").html("注册成功")
+							window.location.href="logo.html"
+						}else if(data==0){
+							$(".tishi").html("用户名已存在")
+						}else if(data==2){
+							$(".tishi").html("服务器繁忙，请稍后再试")
+						}
+					}
+				}
+				);
+			}else{
+				$(".tishi").html("请输入内容")
+			}
+		})
+		
+		
+			
+			
+			
+	
+		
+		
+		
+	</script>
+
+</html>

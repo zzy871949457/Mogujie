@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css"/>
+		<link rel="stylesheet" type="text/css" href="js/animate.min.css"/>
+		<style type="text/css">
+			.box,.swiper-wrapper,.cl1{
+				width: 100%;
+				height: 100%;
+				background: #f8f3f7;
+			}
+			 img{
+				margin: 0 auto;
+				display: block;
+			}
+			.img1{
+				width:100%;
+				height:4.77rem;
+			
+			}
+			.img2{
+				width: 3.33rem;
+				height: 0.48rem;
+				margin-left: 1.04rem;
+				margin-top: 1.82rem;
+			}
+			.img3{
+				width: 3.41rem;
+				height: 0.53rem;
+				margin-top: 0.4rem;
+				margin-left: 0.25rem;
+			}
+			.img21{
+				width: 0.37rem;
+				height: 1.13rem;
+				margin-top:1.0rem;
+				animation:move1 5s linear infinite;
+			}
+			@keyframes move1{
+				from{transform: translateY(0);}
+				to{transform: translateY(0.5rem);}
+			}
+			.img22{
+				width: 1.78rem;
+				height: 0.35rem;
+				margin-top: 1.1rem;
+			
+			}
+			.img23{
+				width: 2.21rem;
+				height: 2.21rem;
+				margin-top: 0.58rem;
+		
+			}
+			.img24{
+				width: 3.89rem;
+				height: 2.13rem;
+				margin-top:0.85rem ;
+			}
+			.img31{
+				width: 2.34rem;
+				height: 0.78rem;
+				margin-top: 1.6rem;
+			}
+			.img32{
+				width: 3.88rem;
+				height: 2.96rem;
+				margin-top: 1.4rem;
+			}
+			.img33{
+				width: 2.84rem;
+				height: 1.89rem;
+				margin-top: 0.69rem;
+			}
+			.img41{
+				width: 0.37rem;
+				height: 1.14rem;
+				margin-top: 2rem;
+				animation:move2 .5s linear infinite;
+			}
+			@keyframes move2{
+				from{transform: translateY(0);}
+				to{transform: translateY(1rem);}
+			}
+			.img42{
+				width: 4.45rem;
+				height: 0.32rem;
+				margin-top: 1.2rem;
+			}
+			.img43{
+				width: 2.87rem;
+				height: 0.95rem;
+				margin-top: 3rem;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="swiper-container box">
+			
+			<div class="swiper-wrapper "> 
+				<div class="swiper-slide">
+					<div class="cl1">		
+						<img src="img/huanying/3_02.jpg" alt="" class="img1 ani" swiper-animate-effect=" fadeInUpBig" swiper-animate-duration="0.5s"/>
+						<img src="img/huanying/3_03.jpg"  alt="" class="img2 ani" swiper-animate-effect=" fadeInLeftBig" swiper-animate-duration="1s"/>
+						<img src="img/huanying/3_07.jpg" class="img3 ani" swiper-animate-effect=" fadeInRightBig" swiper-animate-duration="1s"/>
+					</div>
+					
+				</div> 
+				<div class="swiper-slide">
+					<div class="cl1">
+						<img src="img/huanying/4_03.jpg" alt="" class="img21 ani"  swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s"/>
+						<img src="img/huanying/4_07.jpg" alt=""  class="img22 ani"    swiper-animate-effect="fadeInRightBig" swiper-animate-duration="0.5s"  swiper-animate-delay="0.3s"/>
+						<img src="img/huanying/4_11.jpg" alt="" class="img23 ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.3" swiper-animate-delay="1s"/>
+						<img src="img/huanying/4_15.jpg" alt=""  class="img24 ani"  swiper-animate-effect=" rubberBand" swiper-animate-duration="0.3s"  />
+					</div>
+				</div> 
+				<div class="swiper-slide">
+					<div class="cl1">
+						<img src="img/huanying/5_03.jpg" alt="" class="img31 ani" swiper-animate-effect="  fadeInDownBig" swiper-animate-duration="0.3s"/>
+						<img src="img/huanying/5_07.jpg" alt="" class="img32 ani" swiper-animate-effect="  rotateIn" swiper-animate-duration="0.3s"/>
+						<img src="img/huanying/5_11.jpg" alt="" class="img33 ani" swiper-animate-effect=" slideInRight" swiper-animate-duration="0.3s" swiper-animate-delay="0.3s"/>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="cl1">
+						<img src="img/huanying/6_03.jpg" alt="" class="img41"/>
+						<img src="img/huanying/6_07.jpg" alt="" class="img42 ani" swiper-animate-effect="  fadeInRightBig" swiper-animate-duration="0.3s"/>
+						<img src="img/huanying/6_11.jpg" alt="" class="img43 ani" swiper-animate-effect="rollIn" swiper-animate-duration="0.3s"/>
+					</div>
+				</div> 
+			</div> 
+			<!-- 如果需要分页器 --> 
+			<div class="swiper-pagination"></div>
+			
+			
+		</div>
+	</body>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	window.onload=function(){
+		var mySwiper = new Swiper ('.swiper-container', { 
+				direction: 'horizontal', 
+				loop: true, 
+//				autoplay: 5000,
+
+				// 如果需要分页器
+ 				pagination: '.swiper-pagination', 
+				onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit 		
+				swiperAnimateCache(swiper); //隐藏动画元素
+				swiperAnimate(swiper);
+			 }, 
+			onSlideChangeEnd: function(swiper){
+	 			swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+	 		} 	
+ 		}) 
+ 		
+ 		
+ 		$(".img43").on('touchend',function(){
+		location.href="logo.html";
+		})
+	}
+		
+
+	</script>
+</html>

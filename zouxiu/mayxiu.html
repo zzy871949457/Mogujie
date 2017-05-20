@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<!--<link rel="stylesheet" type="text/css" href="ba.css" />-->
+		<link rel="stylesheet" type="text/css" href="js/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="icons/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="js/download/font_xn1yqmwxvftotj4i/iconfont.css"/>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				width: 100%;
+				height: 100%;
+				background: #f7f7f7;
+				font-family: "微软雅黑";
+				
+			}
+			body{display: flex;flex-flow:column ;overflow: hidden;}
+			.header{
+				width: 100%;
+				height: 0.8rem;
+				background: #a90506;
+				border-bottom: 0.03rem solid #000;
+				border-top:0.03rem solid #c92b2a;
+			}
+			
+			.header button{
+				width: 1rem;
+				height: 0.54rem;
+				margin-top: 0.1rem;
+				margin-left: 1.6rem;
+				float: left;
+				color: #fff;
+				border: 0.01rem solid #666;
+				text-align: center;
+				line-height: 0.54rem;
+				border-radius: 0.1rem;
+				background: #c50d0b;
+				border-color: #a02c2d;
+				outline: none;
+				font-size: 0.22rem;
+			}
+			.header h1{
+				font-size: 0.34rem;
+				color: #fff;
+				margin-left: 2.6rem;
+				line-height: 0.8rem;
+				float: left;
+			}
+			.head img{
+				margin-top: 0.6rem;
+				margin-left: 0.2rem;
+				float: left;
+				width: 2.5rem;
+				height: 2.5rem;
+			}
+			.head p{
+				float: left;
+				font-size: 0.36rem;
+				color: #000;
+				margin-top: 1.2rem;
+				margin-left: 0.3rem;
+			}
+			.cont{
+				flex: 1;
+				width: 100%;
+				overflow: hidden;
+			}
+			.cont img{
+				width: 2rem;
+				height: 2rem;
+				border-radius:5px ;
+				margin-left: 0.6rem;
+				margin-top: 1rem;
+			}
+			.foo{
+				flex: 1;
+				width: 5.6rem;
+				height: 3.7rem;
+				border: 0.01rem solid #EAEAEA;
+				margin-top: 4.3rem;
+				margin-left: 0.34rem;
+				border-radius: 0.2rem;
+				font-size: 0;
+			}
+			.num{
+				color: #f00;
+			}
+			.foo li{
+				width: 100%;
+				height: 0.9rem;
+				border-bottom: 0.01rem solid #EAEAEA;
+			}
+			.foo li a{
+				font-size: 0.35rem;
+				color: #000;
+				line-height: 0.9rem;
+				padding-left: 0.1rem;
+			}
+			.foo .li1{
+				border-bottom: none;
+			}
+			.footer {
+				width: 100%;
+				height: 0.89rem;
+				background: #484850;
+				/*margin-top: 1.4rem;*/
+				font-size: 0;
+			}
+			
+			.footer li {
+				padding-top: 0.05rem;
+				float: left;
+				width: 1.2rem;
+				text-align: center;
+				font-size: 0.22rem;
+			}
+			
+			.footer li i {
+				font-size: 0.51rem;
+			}
+			.gt{
+				float: right;
+				 margin-right: 0.3rem; 
+				 color: #aaa;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>我的秀</h1>
+			<button>充值</button>
+		</div>
+		<div class="cont">
+			<div class="head">
+			<img src="img/c_03.gif" class="im"/>
+			<p>
+				<span class="span1">昵称：<span class="name">未知</span></span><br /><br />
+				<span>余额：<span class="num">0</span></span>
+			</p>
+		</div>
+		<div class="foo">
+			<ul>
+				<li><a href="###">我的订单</a><a href="" class="gt" >&gt;</a></li>
+				<li><a href="###">我的优惠券</a><a href="" class="gt">&gt;</a></li>
+				<li><a href="###">浏览记录</a><a href="" class="gt">&gt;</a></li>
+				<li class="li1"><a href="###">我的收藏</a><a href="" class="gt">&gt;</a></li>
+			</ul>
+		</div>
+			
+		</div>
+		
+		<div class="footer">
+			<ul>
+				<li >
+					<a class="cl11">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe644;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">首页</span>
+					</a>
+					
+				</li>
+				<li >
+					<a class="cl12">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe7d5;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">分类</span>
+					</a>
+					
+				</li>
+				<li >
+					<a class="cl13">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;margin-left: 0.1rem;">&#xe61b;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">购物车</span>
+					</a>
+					
+				</li>
+				<li style="border-top: 3px solid #d71110;">
+					<a class="cl14">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem; margin-left: 0.1rem;">&#xe677;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">我的秀</span>
+					</a>
+					
+				</li>
+				<li>
+					<a >
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe601;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">更多</span>
+					</a>
+					
+				</li>
+			</ul>
+		</div>
+		
+		
+	</body>
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/touch.min.js"></script>
+	<script type="text/javascript" src="js/swiper-3.3.1.jquery.min.js"></script>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	window.onload=function(){
+		
+		function log1(c,d,e){
+					if(window.location.search){
+						var good = GetQueryString(d)
+//						console.log(good)
+						c.attr("href",e+"?"+d+"="+good)
+					}else if(localStorage.getItem(d)){
+						c.attr("href",e+"?"+d+"="+localStorage.getItem(d))
+					}else{
+						c.attr("href",e)
+					}
+				}
+		//获取地址栏的内容
+		function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		$.ajax({
+			type:"get",
+			url:" http://datainfo.duapp.com/shopdata/getuser.php",
+			dataType:"jsonp",
+			data:{userID:GetQueryString("user")},
+			success:function(data){
+				if(data==0){
+					alert("请登录")
+				}else{
+					$(".im").attr("src",data[0]["userimg_url"])
+					$(".name").html(data[0]["userID"])
+					log1($(".cl11"),"user","choujiang.html");
+					log1($(".cl12"),"user","list.html");
+					log1($(".cl13"),"user","cart.html");
+					log1($(".cl14"),"user","mayxiu.html");
+				}
+				
+					
+			
+			
+			}
+		});
+		
+		
+		
+	}
+		
+	</script>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="icons/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="js/download/font_xn1yqmwxvftotj4i/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<style type="text/css">
+			body,
+			html {
+				width: 100%;
+				height: 100%;
+				;
+			}
+			
+			body {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				/*width:6.4rem;margin: 0 auto;*/
+				height: 100%;
+			}
+			
+			.nav {
+				height: 0.56rem;
+				width: 100%;
+				background: #9a9fa5;
+				font-size: ;
+			}
+			
+			.nav {
+				height: 0.9rem;
+				width: 100%;
+				background: #747474;
+				line-height: 0.9rem;
+				font-size: 0.25rem;
+			}
+			
+			.nav-left {
+				margin-left: 0.22rem;
+				color: #fff;
+			}
+			
+			.nav-num {
+				color: #fff;
+			}
+			
+			.nav-right {
+				color: #fff;
+			}
+			
+			.nav-pice {
+				color: #a91b1a;
+			}
+			
+			section {
+				-webkit-box-flex: 1;
+				overflow: hidden;
+			}
+			
+			section>div {
+				width: 100%;
+				height: 100%;
+			}
+			
+			section>div ul {
+				/*padding:0.4rem 0.4rem 0 0;*/
+				width: 100%;
+				height: 100%;
+				;
+				position: relative;
+			}
+			
+			section>div ul li {
+				overflow: hidden;
+				padding: 0.27rem 0 0.27rem 0.5rem;
+				border-bottom: 1px solid #f1f1f1;
+			}
+			
+			section img {
+				width: 1.73rem;
+				height: 1.76rem;
+				float: left;
+			}
+			
+			.car-magess {
+				float: left;
+				width: 3.5rem;
+				height: 1.78rem;
+				margin-left: 0.26rem;
+			}
+			
+			.car-magess .con {
+				font-size: 0.24rem;
+				width: 2.98rem;
+				height: 0.85rem;
+				color: #000;
+				line-height: 0.4rem;
+				white-space: nowrap;
+				overflow:hidden ;
+				text-overflow: ellipsis;
+			}
+			
+			.car-magess .car-pice {
+				font-size: 0.3rem;
+				width: 100%;
+				height: 0.4rem;
+				line-height: 0.4rem;
+				color: #000;
+			}
+			
+			.car-magess .car-pice span {
+				color: #a91b1a;
+			}
+			
+			.car-magess .car-num {
+				width: 100%;
+				height: 0.46rem;
+				line-height: 0.46rem;
+				color: #000;
+				font-size: 0.28rem;
+			}
+			
+			.car-magess .car-num button {
+				width: 0.55rem;
+				height: 0.42rem;
+				background: #999999;
+				text-align: center;
+				display: inline-block;
+				outline-style: none;
+				color: #fff;
+				display: inline-block;
+				font-size: 0.19rem;
+				border: none;
+				border-radius: 0.08rem;
+				margin-left: 0.05rem;
+			}
+			
+			.car-magess .car-num input {
+				width: 0.70rem;
+				height: 0.4rem;
+				border: none;
+				box-shadow: 0 0 1px #999;
+				text-align: center;
+				line-height: 0.44rem;
+				color: #000 display: inline-block;
+				margin: 0 0.1rem 0 0.15rem;
+				outline-style: none;
+			}
+			
+			.footer {
+				width: 100%;
+				height: 0.89rem;
+				background: #484850;
+				/*margin-top: 1.4rem;*/
+				font-size: 0;
+			}
+			
+			.footer li {
+				padding-top: 0.05rem;
+				float: left;
+				width: 1.2rem;
+				text-align: center;
+				font-size: 0.22rem;
+			}
+			
+			.footer li i {
+				font-size: 0.51rem;
+			}
+		</style>
+		<script>
+			window.PointerEvent = void 0
+		</script>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<h1>购物车</h1>
+			<button><i class="iconfont">&#xe61b;</i></button>
+		</div>
+		<div class="nav">
+			<p>
+				<span class="nav-left">商品数量:</span>
+				<i class="nav-num"></i>
+				<span class="nav-right">应付总额(不含运费):</span>
+				<em class="nav-pice">￥<b class="nav-pice-jia"></b></em>
+			</p>
+		</div>
+		<section>
+			<div>
+				<ul class="car-list">
+					
+				</ul>
+
+			</div>
+
+		</section>
+		<div class="footer">
+			<ul>
+				<li>
+					<a class="cl11">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe644;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">首页</span>
+					</a>
+
+				</li>
+				<li>
+					<a class="cl12">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe7d5;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">分类</span>
+					</a>
+
+				</li>
+				<li style="border-top: 3px solid #d71110;">
+					<a class="cl13">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;margin-left: 0.1rem;">&#xe61b;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">购物车</span>
+					</a>
+
+				</li>
+				<li>
+					<a class="cl14">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem; margin-left: 0.1rem;">&#xe677;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">我的秀</span>
+					</a>
+
+				</li>
+				<li>
+					<a class="ll">
+						<i class="iconfont" style="color: #fff;font-size: 0.42rem;">&#xe601;</i><br />
+						<span style="color: #fff;font-size: 0.24rem;">更多</span>
+					</a>
+
+				</li>
+			</ul>
+		</div>
+
+	</body>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			var myscoll = new IScroll("section")
+
+			function shuliang() {
+				var num = $(".fa").length;
+				var a=0;
+				var b=0;
+				for (var i=0;i<num;i++) {
+				a+=Number(Number($(".fa").eq(i).find(".danjia1").html()).toFixed(2)*Number($(".fa").eq(i).find(".n").val()).toFixed(2))
+				b+=Number($(".fa").eq(i).find(".n").val())
+				}
+				$(".nav-pice-jia").html(a.toFixed(2))
+				$(".nav-num").html(b)
+			}
+			
+
+			function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+
+			function log1(c, d, e) {
+
+				if(window.location.search) {
+					var good = GetQueryString(d)
+						//						console.log(good)
+					c.attr("href", e + "?" + d + "=" + good)
+				} else if(localStorage.getItem(d)) {
+					c.attr("href", e + "?" + d + "=" + localStorage.getItem(d))
+				} else {
+					c.attr("href", e)
+				}
+			}
+
+						$.ajax({
+							type: "get",
+							url: "http://datainfo.duapp.com/shopdata/getCar.php",
+							data: {
+								userID: GetQueryString("user"),
+							},
+							dataType: "jsonp",
+							success: function(data) {
+								
+								
+								
+								setTimeout(function() {
+									myscoll.refresh();
+								},0)
+			
+								var txt = "";
+								$.each(data, function(i) {
+									txt += "<li class='fa' id='" + data[i]["goodsID"] + "'><img src='" + data[i]["goodsListImg"] + "'/><div class='car-magess'><div class='con'>" + data[i]["goodsName"] +
+										"</div><p class='car-pice'>单价:<span>￥<b class='danjia1'>" + data[i]["price"] +
+										"</b></span></p><p class='car-num'>数量:<button class='car-sub'>-</button><input type='text' value='" + data[i]["number"] + "' class='n'/><button class='car-add'>+</button></p></div><i class=\"iconfont del\">&#xe68d;</i>"
+								})
+								$(".car-list").html(txt);
+								shuliang()
+								log1($(".cl11"), "user", "choujiang.html");
+								log1($(".cl12"), "user", "list.html");
+								log1($(".cl13"), "user", "cart.html");
+								log1($(".cl14"), "user", "mayxiu.html");
+								$(".n").on("blur",function(){
+									if(/^\d+$/g.test($(this).val())){
+										shuliang()
+										console.log(1)
+									}else{
+										$(this).val($(this).val().match(/\d+/)[0])
+										shuliang()
+									}
+								})
+								$("button").on("tap", function() {
+									
+									if($(this)[0].className == "car-sub") {
+										if($(this).next().val() > 1) {
+											var val1 = Number($(this).next().val())
+											$(this).next().val(val1 -= 1)
+											shuliang()
+											$.ajax({
+												type: "get",
+												url: "http://datainfo.duapp.com/shopdata/updatecar.php",
+												dataType: "json",
+												data: {
+													userID: GetQueryString("user"),
+													goodsID: $(this).parents(".fa")[0].id,
+													number: $(this).next().val()
+			
+												},
+												success: function(data) {
+													if(data == 1) {
+														setTimeout(function() {
+															myscoll.refresh();
+														}, 2000)
+													} else {
+			
+													}
+												}
+			
+											})
+										}
+			
+									}
+									if($(this)[0].className == "car-add") {
+											
+										var val1 = Number($(this).prev().val())
+										$(this).prev().val(val1 += 1)
+											shuliang()
+										$.ajax({
+											type: "get",
+											url: "http://datainfo.duapp.com/shopdata/updatecar.php",
+											dataType: "json",
+											data: {
+												userID: GetQueryString("user"),
+												goodsID: $(this).parents(".fa")[0].id,
+												number: $(this).prev().val()
+			
+											},
+											success: function(data) {
+												if(data == 1) {
+													setTimeout(function() {
+														myscoll.refresh();
+													}, 2000)
+			
+												} else {
+			
+												}
+											}
+			
+										})
+			
+									}
+									//						console.log($(this)[0].className)
+								})
+									
+								$(".del").on("tap", function() {
+									
+									$(this).parents(".fa").css("display", "none")
+									$(this).parents(".fa").remove()
+									shuliang()
+									$.ajax({
+										type: "get",
+										url: "http://datainfo.duapp.com/shopdata/updatecar.php",
+										dataType: "json",
+										data: {
+											userID: GetQueryString("user"),
+											goodsID: $(this).parents(".fa")[0].id,
+											number: 0
+			
+										},
+										success: function(data) {
+											if(data == 1) {
+													
+											} else {
+			
+											}
+										}
+			
+									})
+			
+								})
+			
+							}
+						});
+			
+						function look() {
+			
+						}
+
+		}
+	</script>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="icons/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="js/download/font_xn1yqmwxvftotj4i/iconfont.css" />
+		<script>window.PointerEvent=void 0</script>
+		<style type="text/css">
+			body{display: flex;flex-flow: column;height: 100%;}
+			.cont{flex: 1;overflow: hidden;width: 100%;}
+			.cont img{width: 6.4rem;border: none;}
+			.header span{
+				float: left;
+				font-size: 0.54rem;
+				color: #fff;
+				margin-left: 0.32rem;
+			}
+			.header h1{margin-left: 1.8rem;}
+			.footer{
+				width: 100%;
+				height: 0.89rem;
+				background: #484850;
+				font-size: 0 ;
+				
+			}
+			
+			.footer li{
+				padding-top: 0.05rem;
+				float: left;
+				width: 1.2rem;
+				text-align: center;
+				font-size: 0.22rem;
+				
+			}
+			.footer li i{
+				font-size: 0.51rem;
+			}
+			.mass {
+				
+				margin: 0.4rem;
+				font-size: 0.3rem;
+			}
+			section{
+	-webkit-box-flex: 1;overflow: hidden;
+	}
+	section>div{
+		width: 100%;height:100%;
+	}
+	section>div ul{
+	/*padding:0.4rem 0.4rem 0 0;*/
+		width: 100%;height:100%;;position: relative;
+	}
+	section>div ul li{
+	overflow: hidden;padding: 0.27rem 0 0.27rem 0.5rem;border-bottom: 1px solid #f1f1f1;
+	}
+	section img{
+	width:1.73rem;height:1.76rem;float: left;
+	}
+	.car-magess{
+	float: left;width:3.2rem;height:1.78rem;margin-left:0.26rem;
+}
+.car-magess .con{
+	font-size:0.24rem;width:2.98rem;height:0.85rem;color:#000;line-height: 0.4rem;
+}
+.car-magess .car-pice{
+	font-size:0.3rem;width:100%;height:0.4rem;line-height:0.4rem;color:#000;
+}
+.car-magess .car-pice span{
+	color:#a91b1a;
+}
+.car-magess .car-num{
+	width:100%;height:0.46rem;line-height: 0.46rem;color: #000;
+}
+.car-magess .car-num button{
+	width:0.57rem;height:0.42rem;background: #999999;text-align: center;display: inline-block;outline-style: none;
+	color:#fff;display: inline-block;font-size: 0.19rem;border: none;border-radius: 0.08rem;margin-left: 0.05rem;
+}
+.car-magess .car-num input{
+	width:0.77rem;height:0.4rem;border:none;box-shadow: 0 0 1px #999;text-align: center;line-height: 0.44rem;color:#000
+	display: inline-block;margin: 0 0.1rem 0 0.15rem;outline-style: none;
+}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+				<span class="fan">&lt;</span>
+				<h1>新品上市</h1>
+				<button><i class="iconfont">&#xe61b;</i></button>
+		</div>
+		<div class="cont">
+
+				<div class="fon">
+					<div class="img"></div>
+					<div class="mass"></div>
+				</div>
+			
+			
+		</div>
+	
+	</body>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			
+			function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+			
+			
+			
+		var myScroll = new IScroll('.cont');
+			console.log(window.location.search.split("?name=")[1])
+			$.ajax({
+				type:"get",
+				url:"http://datainfo.duapp.com/shopdata/getGoods.php",
+				async:true,
+				dataType:"jsonp",
+				data:{
+					goodsID:GetQueryString("name")
+				},
+			success:function(data){
+				var myScroll = new IScroll('.cont');
+				var img="";
+				var datas=JSON.parse(data[0]["goodsBenUrl"])
+				$.each(datas, function(i) {
+					img+="<img src='"+datas[i]+"'/>"
+				});
+					$(".img").html(img)
+				window.setTimeout(function(){
+					myScroll.refresh()
+				},1000)
+
+				$(".mass").html(data[0]["detail"])
+				$(".fan").on("tap",function(){
+					window.history.go(-1)
+				})
+			}
+			});
+			
+		}
+	</script>
+</html>

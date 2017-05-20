@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="icons/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="js/download/font_xn1yqmwxvftotj4i/iconfont.css" />
+		<script>window.PointerEvent=void 0</script>
+		<style type="text/css">
+				/*body{display: flex;flex-flow: column;}*/
+				.cont{height: 100%;width: 100%;overflow: hidden;}
+				.con{height: 3.94rem;width: 100%;}
+				.xiangqing{
+					width: 100%;
+					height: 2.57rem;
+					background: #f3eff0;
+					text-indent: 0.27rem;
+				}
+				.header span{
+				float: left;
+				font-size: 0.54rem;
+				color: #fff;
+				margin-left: 0.32rem;
+			}
+			.header h1{margin-left: 1.8rem;}
+				.name{
+					font-size: 0.24rem;
+					line-height: 0.67rem;
+				}
+				.con1{
+					font-size: 0.25rem;line-height: 0.5rem;
+					color: #454545;
+					}
+				.con1 span{
+					color: #ba0a53;
+					font-weight: bold;
+					float: left;
+					margin-right: 0.3rem;
+				}
+				.peo{
+					font-size: 0.28rem;
+					line-height: 0.6rem;
+				}
+				.dian{
+					height: 1.5rem;
+					line-height: 1.5rem;
+					width: 100%;
+					text-indent:0.24rem ;
+					
+				}
+				.dian a i{color: #b62222;}
+				.dian a span{font-size: 0.3rem;color: #656565;}
+				.foot{
+					width: 100%;
+					background: #a3a3a3;
+					height: 2rem;
+					line-height:1.8rem ;
+					margin-top: 0.3rem;
+					text-align: center;
+					padding-bottom: 0.2rem;
+				}
+				.foot button{
+					height: 1.3rem;
+					width: 4.4rem;
+					background: #9f1515;
+					color: #fff;
+					border:1px solid #920201;
+					border-radius: 5px;
+					font-size: 0.3rem;
+				}
+				
+				.swiper-slide img{width: 100%;height: 100%;}
+		</style>
+	</head>
+
+	<body>
+
+		<div>
+			<div class="header">
+				<span class="fan">&lt;</span>
+				<h1>新品上市</h1>
+				<button><i class="iconfont">&#xe61b;</i></button>
+			</div>
+			<div class="cont">
+				<div class="sec">
+					<div class="swiper-container con">
+						<div class="swiper-wrapper">
+							
+						</div>
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination cl"></div>
+							
+						
+						
+					</div>
+					
+					<div class="xiangqing">
+						<p class="name">美特斯邦威</p>
+						<p class="con1"><span class="price"></span><del class="old">159.00</del></p>
+						<p class="peo">购买人数：<span class="num"></span></p>
+					</div>
+					<div class="dian">
+						<a class="go">
+							<i class="iconfont">&#xe6a3;</i>
+							<span>查看商品详情</span>
+						</a>
+					</div>
+					<div class="foot">
+						<button class="tianjia">添加到购物车</button>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+
+		</div>
+
+	</body>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/iscroll.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+	window.onload=function(){
+		
+		function GetQueryString(name) {
+				var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) return unescape(r[2]);
+				return null;
+			}
+		$.ajax({
+			type:"get",
+			url:"http://datainfo.duapp.com/shopdata/getGoods.php",
+			async:true,
+			dataType:"jsonp",
+			data:{goodsID:GetQueryString("good")},
+			
+			success:function(data){
+				$(".name").html(data[0]["goodsName"])
+				if(Number(data[0]["discount"])!=0){
+					$(".price").html("￥"+Number(Number(data[0]["price"])*Number(data[0]["discount"])/10))
+				}else{
+					$(".price").html("￥"+data[0]["price"])
+				}
+				
+				$(".old").html("￥"+Number(data[0]["price"]).toFixed(2))
+				$(".num").html(data[0]["buynumber"])
+					$(".fan").on("tap",function(){
+					window.history.go(-1)
+				})
+					if(GetQueryString("user")){
+						$(".go").attr("href","xiang.html?name="+data[0]["goodsID"]+"&&user="+GetQueryString("user"))
+					}else if(localStorage.getItem("user")){
+						$(".go").attr("href","xiang.html?name="+data[0]["goodsID"]+"&&user="+localStorage.getItem("user"))
+					}else{
+						$(".go").attr("href","xiang.html?name="+data[0]["goodsID"])
+					}
+					
+				var datas=JSON.parse(data[0]["imgsUrl"])
+				console.log(data)
+				var lis=""
+				$.each(datas, function(i) {
+					lis+="<div class='swiper-slide'><img src='"+datas[i]+"'/></div>"
+					
+				});
+				$(".swiper-wrapper").html(lis)
+					var mySwiper = new Swiper('.swiper-container', {
+					direction: 'horizontal',
+					loop: true,
+
+			// 如果需要分页器
+					pagination: '.swiper-pagination',
+					slidesPerView : 2
+		})
+			
+			
+			$(".tianjia").on("tap",function(){
+				if(GetQueryString("user")){
+					$.ajax({
+						type:"get",
+						url:"http://datainfo.duapp.com/shopdata/updatecar.php",
+						dataType:"json",
+						data:{
+							userID:GetQueryString("user"),
+							goodsID:GetQueryString("good")
+						},
+						success:function(data){
+							if(data==1){
+								alert("加入购物车成功")
+							}else{
+								alert("加入购物车失败")
+							}
+						}
+						
+					});
+				}else if(localStorage.getItem("user")){
+					$.ajax({
+						type:"get",
+						url:"http://datainfo.duapp.com/shopdata/updatecar.php",
+						dataType:"json",
+						data:{
+							userID:localStorage.getItem("user"),
+							goodsID:GetQueryString("good")
+						},
+						success:function(data){
+							if(data==1){
+								alert("加入购物车成功")
+							}else{
+								alert("加入购物车失败")
+							}
+						}
+						
+					})
+				}
+				else{
+					alert("请登录后再加入购物车")
+				}
+			})
+			
+			
+			}
+		});
+		
+		
+	}
+	
+		
+	</script>
+
+</html>

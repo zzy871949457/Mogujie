@@ -1,0 +1,49 @@
+body{
+				
+				display: flex;
+				flex-flow:column ;
+			}
+			.header{	
+				width: 100%;
+				height: 0.8rem;
+				background: #a90506;
+				border-bottom: 0.03rem solid #000;
+				border-top:0.03rem solid #c92b2a;
+				/*position: relative;*/
+			}
+			.header h1{
+				font-size: 0.34rem;
+				color: #fff;
+				margin-left: 2.6rem;
+				line-height: 0.8rem;
+				float: left;
+			}
+			.header button{
+				width: 1rem;
+				height: 0.54rem;
+				margin-top: 0.1rem;
+				margin-left: 1.6rem;
+				float: left;
+				color: #fff;
+				border: 0.01rem solid #666;
+				text-align: center;
+				line-height: 0.54rem;
+				border-radius: 0.1rem;
+				background: #c50d0b;
+				border-color: #a02c2d;
+				outline: none;
+				position: absolute;
+				right:0.19rem;
+				top:0.1rem;
+				
+			}
+			.header .iconfont{
+				font-size: 0.3rem;
+			}
+			.header h1{
+				font-size: 0.34rem;
+				color: #fff;
+				margin-left: 2.6rem;
+				line-height: 0.8rem;
+				float: left;
+			}

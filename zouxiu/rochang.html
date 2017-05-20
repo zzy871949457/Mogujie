@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="js/animate.min.css"/>
+		<style type="text/css">
+			.box,
+			.swiper-wrapper,
+			.cl1 {
+				width: 100%;
+				height: 100%;
+				background: #f8f3f7;
+			}
+			
+			.cl1 img {
+				display: block;
+			}
+			
+			.img1 {
+				width: 2.56rem;
+				height: 2.56rem;
+				margin-top: 1.55rem;
+				margin-left: 1.95rem;
+			}
+			
+			.img2 {
+				width: 2.56rem;
+				height: 0.35rem;
+				margin-left: 1.94rem;
+				margin-top: 0.83rem;
+			}
+			
+			.img3 {
+				width: 6.4rem;
+				height: 1.1rem;
+				margin-top: 4.9rem;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="swiper-container box">
+
+			<div class="swiper-wrapper ">
+				<div class="swiper-slide">
+					<div class="cl1">
+						<img src="img/huanying/2_03.jpg" alt="" class="img1 ani"  swiper-animate-effect=" rollIn" swiper-animate-duration="1s" />
+						<img src="img/huanying/2_06.jpg" alt="" class="img2 ani"   swiper-animate-effect=" fadeInRightBig" swiper-animate-duration="1s"/>
+						<img src="img/huanying/2_09.jpg" alt="" class="img3 ani"  swiper-animate-effect=" fadeInUpBig" swiper-animate-duration="1s"/>
+
+					</div>
+
+				</div>
+			</div>
+			
+		</div>
+	</body>
+	<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			var mySwiper = new Swiper('.swiper-container', {
+			direction: 'horizontal',
+			loop: true, 
+			onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit 		
+				swiperAnimateCache(swiper); //隐藏动画元素
+				swiperAnimate(swiper);
+			 }, 
+			onSlideChangeEnd: function(swiper){
+	 			swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+	 		} 
+
+  			})      
+			$(".box").on('touchend',function(){
+			location.href="lunbo.html";
+		})
+		
+			
+			
+		}
+		  
+
+		
+		
+		
+	
+		
+		
+	</script>
+
+</html>

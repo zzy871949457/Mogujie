@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/logo.css"/>
+		<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+	<body>
+		<div class="cl1">
+			<div class="top">
+				<div class="zhu">开心摇摇用户登录</div>
+			</div>
+			<div class="section">
+			
+				<div class="inp">
+					<input type="text" name="" id="name" placeholder="请输入账号"/>
+					
+				</div>
+				<div class="inp"><input type="password" name="" id="pwd" value="" placeholder="请输入密码"/></div>
+				<div class="btn">
+					<input type="checkbox" name="" id="xianshi" value="" />
+					<span>显示密码</span>
+					<span id="wang">
+						忘记密码？
+					</span>
+				</div>
+				<div class="btn1">
+					<input type="checkbox" name="" id="jizhu" value="" />
+					<span>记住密码自动登录</span>
+					
+				</div>
+				
+			</div>
+			<div class="btnn1">
+				<button class="btnn2">登录</button>
+			</div>
+			<div class="btnn3">
+				<button class="btnn4">注册</button>
+			</div>
+			<div id="tishi" class="btnn1"></div>
+		</div>
+		
+			
+	</body>
+	<script type="text/javascript">
+		$('#xianshi').on('tap', function () {
+    		if ($('#xianshi').attr('checked')) {
+       			 $('#pwd').attr('type', 'text');
+   			 } else {
+        			$('#pwd').attr('type', 'password');
+    			}
+		});
+		
+
+		
+		console.log($("#jizhu").val())
+		
+		
+		
+		
+		
+		$(".btnn2").on("tap",function(){
+			if($('#pwd').val().length>0&&$("#name").val().length>0){
+				$.ajax({
+			type:"GET",
+			url: 'http://datainfo.duapp.com/shopdata/userinfo.php',
+			dataType:"json",
+			data:{
+				status:'login',
+				userID:$("#name").val(),
+				password:$("#pwd").val()
+				},
+			success:function(data){
+				
+					if(data==0){
+						$("#tishi").html('用户名不存在')
+				}else if(data==2){
+					$("#tishi").html('用户名或密码错误')
+				}else{
+					window.location.href="list.html?user="+$("#name").val()
+					  if ($('#jizhu').attr('checked')) {
+    							
+       						localStorage.setItem("user",$("#name").val())
+       						
+   						 } else {
+        					
+    					}
+
+		
+				}
+			
+		}
+			});
+			
+				
+				
+			}else{
+				$("#tishi").html('用户名或密码不能为空')
+			}
+			
+		})
+		
+		
+		$(".btnn4").on("tap",function(){
+				window.location.href="zhuce.html"
+			})
+	</script>
+</html>
