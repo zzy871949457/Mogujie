@@ -1,0 +1,13 @@
+.foot {
+    overflow: hidden;
+    min-height: 180px;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: 0 0;
+}
+
+.foot .wrap {
+    min-height: 180px;
+}
+

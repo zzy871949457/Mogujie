@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../php/Ajax.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("body").load("../publicStyle/loginAndRegister_style.html", function () {
+                $("body .content").load("../publicStyle/register_style.html", function () {
+
+                    /**
+                     * 用户名失去焦点事件，进行校验格式
+                     */
+                    $("#uName input").blur(function () {
+                        var uName = $("#uName input").val();
+                        if (!/^[a-z]\w{5,29}/.test(uName)) {
+                            $("#register-uName-Error").css({
+                                display: "block"
+                            })
+                        } else {
+                            $("#register-uName-Error").css({
+                                display: "none"
+                            })
+                        }
+                    });
+
+                    /**
+                     * 密码框失去焦点的时候进行校验
+                     */
+                    $("#onePwd input").blur(function () {
+                        var onePwd = $("#onePwd input").val();
+                        if (!/\w{6,}/.test(onePwd)) {
+                            $("#register-Pwd-Error").css({
+                                display: "block"
+                            })
+                        } else {
+                            $("#register-Pwd-Error").css({
+                                display: "none"
+                            })
+                        }
+                    });
+
+                    /**
+                     * 点击注册时进行校验，并且提交服务器
+                     */
+                    $("#register-Btn").click(function () {
+
+                        /**
+                         * 首先获取所有input中的内容
+                         */
+                        var uName = $("#uName input").val();
+                        var uOnePwd = $("#onePwd input").val();
+                        var uTwoPwd = $("#twoPwd input").val();
+
+                        /**
+                         * 如果用户名或密码为空，提示用户进行填写
+                         */
+                        if (uName == "" || uOnePwd == "") {
+                            $("#register-Content").css({
+                                display: "block"
+                            })
+                            return;
+                        } else { // 消失掉
+                            $("#register-Content").css({
+                                display: "none"
+                            })
+                        }
+
+                        /**
+                         * 如果第一个密码有内容并且第二次密码为空，就提示
+                         */
+                        if (uOnePwd != "" && uTwoPwd == "") {
+                            $("#register-tPwd-Error").css({
+                                display: "block"
+                            })
+                            return;
+                        } else { // 隐藏
+                            $("#register-tPwd-Error").css({
+                                display: "none"
+                            })
+                        }
+
+                        /**
+                         * 两次密码不一致也要提示
+                         */
+                        if (uOnePwd != uTwoPwd) {
+                            $("#register-tPwd-Error").css({
+                                display: "block"
+                            })
+                            return;
+                        } else { // 隐藏
+                            $("#register-tPwd-Error").css({
+                                display: "none"
+                            })
+                        }
+
+                        ajaxRequest("post", "../php/regist.php", true, {
+                            "uName": uName,
+                            "pwd": uOnePwd
+                        }, function (data) {
+                            data = data.replace(/\s+/g, "");
+                            if (data == "0") {
+                                alert("注册失败！！");
+                            } else {
+                                //成功时跳转登录页面
+                                window.location.href = "login.html"
+                            }
+                        });
+
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body></body>
+</html>

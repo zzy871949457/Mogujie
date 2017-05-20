@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, a {
+    color: #333;
+    font: 12px/1.6 tahoma, arial, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.db {
+    display: block;
+}
+
+.dn {
+    display: none;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+/*边距*/
+.mr47 {
+    margin-right: 47px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+/*颜色*/
+.fe5979 {
+    color: #fe5979;
+}
+
+.selectBox .selected {
+    margin-right: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cart_alleft {
+    text-align: left;
+}
+
+.cart_bold {
+    font-weight: 700;
+}
+
+.cart_lh20 {
+    line-height: 20px;
+    color: #666;
+}
+
+.cart_alcenter {
+    text-align: center;
+}
+
+.cart_throughline {
+    text-decoration: line-through;
+}
+
+.cart_lightgray {
+    color: #999;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}

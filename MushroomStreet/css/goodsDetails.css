@@ -1,0 +1,203 @@
+a {
+    font-family: "微软雅黑";
+}
+
+.storeAndSearch {
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.storeAndSearch .wrap {
+    height: 70px;
+    overflow: visible;
+}
+
+.storeAndSearch .store_info {
+    position: relative;
+    width: 507px;
+    height: 70px;
+}
+
+.storeAndSearch .store_info .avatar {
+    float: left;
+    margin-left: 20px;
+}
+
+.storeAndSearch .store_info .avatar .face {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.storeAndSearch .store_info .shop-name {
+    padding-left: 10px;
+    margin-top: 15px;
+    width: 240px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name {
+    font-size: 14px;
+    overflow: hidden;
+    line-height: 20px;
+    display: block;
+    font-weight: 400;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .name {
+    float: left;
+    margin-right: 5px;
+    display: inline-block;
+    max-width: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score {
+    /*position: relative;*/
+    width: 240px;
+    z-index: 20;
+    padding-bottom: 30px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .left_star {
+    background-image: url(../images/GoodsDetails/xing.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    background-size: 68px 122px;
+    overflow: hidden;
+    background-position: 0 -110px;
+    width: 68px;
+    position: relative;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .left_star .level {
+    background-position: 0 0;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../images/GoodsDetails/xing.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    background-size: 68px 122px;
+    overflow: hidden;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score p {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s-cat {
+    color: #666;
+    margin-right: -1px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s-cat b {
+    color: #ef2f23;
+    font-weight: 400;
+    padding-left: 2px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select {
+    position: absolute;
+    top: 71px;
+    left: 0px;
+    width: 505px;
+    background-color: #f6f6f6;
+    border: 1px solid #ededed;
+    border-top: 0;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box {
+    float: left;
+    width: 220px;
+    min-height: 250px;
+    overflow: hidden;
+    border-right: 1px solid #dedede;
+
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .li {
+    float: left;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .li li {
+    line-height: 26px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .li .tag {
+    width: 85px;
+    display: inline-block;
+    text-align: right;
+    color: #999;
+    margin-right: 2px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .li .shop-individual-licen {
+    width: 170px;
+    display: block;
+    border: 1px solid #e5e5e5;
+    margin-left: 15px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .li3 {
+    padding: 5px 0;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .tc {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.storeAndSearch .store_info .shop-name .s_name .s_score .s_select .info-box .tc .go-detail {
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    color: #333;
+    display: inline-block;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 3px;
+}
+
+.storeAndSearch .store_search {
+    margin: 18px 0 0;
+    padding-left: 24px;
+    width: 571px;
+    height: 30px;
+    float: right;
+}
+
+.storeAndSearch .store_search .joinCart {
+    width: 200px;
+    height: 40px;
+    background: #ef2f23;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    font: 20px Microsoft YaHei;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.storeAndSearch .store_search .joinCart:hover {
+    background: #000;
+    color: #ef2f23;
+}
+
+
+
+

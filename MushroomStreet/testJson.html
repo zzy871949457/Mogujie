@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试json</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            margin: 50px auto;
+            width: 1600px;
+            height: 100px;
+            border: 3px solid #000;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            border: none;
+            float: left;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.post("json/productDetails.json", function (data) {
+                var arr = [];
+                var imgArr = new Array();
+                for (var k in data) {
+                    console.log(data[k]);
+                    arr = data[k]["p_wearingEffect"];
+                }
+                for (var key in arr) {
+                    imgArr.push(arr[key]);
+                }
+                for (var j = 0; j < imgArr.length; j++) {
+                    $(".box").append("<img src=" + imgArr[j] + "/>")
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="box">
+
+</div>
+</body>
+</html>

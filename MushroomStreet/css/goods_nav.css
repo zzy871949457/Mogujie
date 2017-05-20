@@ -1,0 +1,25 @@
+.goods_nav {
+    height: 310px;
+}
+
+.goods_nav .wrap {
+    height: 310px;
+    overflow: hidden;
+}
+
+.goods_nav .wrap .group {
+    width: 1222px;
+    height: 310px;
+}
+
+.goods_nav .wrap .group .img {
+    width: 190px;
+    float: left;
+    height: 145px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.goods_nav .wrap .group .img img {
+    width: 100%;
+}

@@ -1,0 +1,186 @@
+.header {
+    min-width: 1200px;
+    height: 31px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .wrap {
+    height: 31px;
+    overflow: visible;
+}
+
+.home {
+    background: url(../images/home.png) no-repeat 0 -5px;
+    padding: 0 20px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.header_ul .s1 {
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin: 0 15px 0 0;
+    height: 31px;
+}
+
+.header_ul .s1 a {
+    float: left;
+    overflow: hidden;
+    margin-top: 8px;
+    color: #666;
+    line-height: 14px;
+}
+
+.header .header_ul .myorder > a {
+    padding-left: 38px;
+    background: url(../images/images.png) 16px -536px no-repeat;
+}
+
+.header_ul .has-line > a {
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+}
+
+.header_ul .shopping-cart {
+    background: url(../images/images.png) 8px -420px no-repeat;
+
+}
+
+.header_ul .shopping-cart .cart-info-wrap {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    padding-left: 38px;
+}
+
+.header_ul .shopping-cart .cart-info-wrap .cart-info {
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+}
+
+.header_ul .shopping-cart .shop-cart-info {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    top: 31px;
+    left: -90px;
+    width: 250px;
+    padding: 15px;
+    background: #eee;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.header_ul .shopping-cart .empty-cart {
+    width: 200px;
+    padding: 18px 0;
+    text-align: center;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+}
+
+.header_ul .has-icon {
+    padding-right: 10px;
+}
+
+.icon-delta {
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    top: 14px;
+    right: 0;
+    background: url(../images/images.png) -4px -229px;
+}
+
+.header .header_ul .myxiaodian {
+    margin-right: 0;
+    background: url(../images/images.png) 8px -566px no-repeat;
+}
+
+.header .header_ul .myxiaodian a {
+    padding-left: 35px;
+}
+
+.header .header_ul .ext-mode {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 90px;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+}
+
+.header .header_ul .ext-mode li {
+    margin-bottom: 2px;
+}
+
+.header .header_ul .ext-mode li:hover {
+    background: #E4E4E4;
+}
+
+.header .header_ul .ext-mode li a {
+    float: none;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 20px;
+    margin: 0;
+    overflow: hidden;
+    color: #444;
+}
+
+#personal {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    width: 90px;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+}
+
+.header .header_ul .s2 {
+    margin-bottom: 2px;
+}
+
+.header .header_ul .s2 a {
+    float: none;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 20px;
+    margin: 0;
+    overflow: hidden;
+    color: #444;
+}
+
+.header .header_ul .s2 a:hover {
+    background: #d4d4d4;
+}
+
+.header .header_ul .ext-mode{
+    position: absolute;
+    z-index: 999;
+    width: 90px;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+}

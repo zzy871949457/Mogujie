@@ -1,0 +1,30 @@
+.leftNav {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    width: 50px;
+    margin-left: -665px;
+    z-index: 20;
+    height: 600px;
+    border-radius: 5px;
+    display: none;
+}
+
+.leftNav .nav-item {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 39px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 39px;
+    border-bottom: 1px solid #656565;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftNav .nav-item-show {
+    background-color: #ff5577;
+}
+
+

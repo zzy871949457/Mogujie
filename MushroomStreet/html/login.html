@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../php/Ajax.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("body").load("../publicStyle/loginAndRegister_style.html", function () {
+                $("body .content").load("../publicStyle/login_style.html", function () {
+
+                    /**
+                     * 点击登录时，对用户名密码进行校验
+                     */
+                    $("#login").click(function () {
+                        var uName = $("#uName").val();
+                        var pwd = $("#pwd").val();
+                        if (uName == "" || pwd == "") {
+                            $("#login-uName-Error").css({
+                                display:"block"
+                            });
+                            $("#uName").val("");
+                            $("#pwd").val("");
+                            return;
+                        }else{
+                            $("#login-uName-Error").css({
+                                display:"none"
+                            });
+                            /**
+                             * 向服务器传递参数 key不可改变
+                             */
+                            ajaxRequest("post","../php/login.php",true,{"user":$("#uName").val(),"pwd":$("#pwd").val()},function(data){
+                                data = data.replace(/\s+/g, "");
+                                if(data != "0") {
+                                    alert("login success");
+                                    document.cookie = "user="+$("#uName").val()+";path=/;expires="+new
+                                            Date(new
+                                                Date().getTime()+7*24*3600000);
+//                                    document.cookie = "pwd="+$("#pwd").val()+";expires="+new Date(new
+//                                                Date().getTime()+7*24*3600000);
+                                    window.location.href = "../index.html";
+                                }else{
+                                    alert("用户名或者密码错误！！！请输入正确的用户名或者密码!!!");
+                                }
+                            });
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

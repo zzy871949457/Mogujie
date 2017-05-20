@@ -1,0 +1,486 @@
+.activity_banner {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.activity_banner .left_banner {
+    height: 100%;
+    width: 960px;
+    position: relative;
+    overflow: hidden;
+}
+
+.activity_banner .left_banner .btn {
+    display: none;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    z-index: 10;
+    opacity: .2;
+    background: url("../images/activity_banner.png") no-repeat;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.activity_banner .left_banner .leftBtn {
+    left: 10px;
+}
+
+.activity_banner .left_banner .rightBtn {
+    right: 10px;
+    background-position: -50px 0;
+}
+
+.activity_banner .left_banner .span_list {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 3px 10px;
+    z-index: 10;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.activity_banner .left_banner .span_list .dian {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 50%;
+    background: #E7E7E7;
+    margin: 0 3px;
+}
+
+.activity_banner .left_banner .span_list .active {
+    background: #FF4466;
+}
+
+.activity_banner .left_banner img {
+    width: 100%;
+    position: absolute;
+    left: -240px;
+    opacity: 0;
+}
+
+.activity_banner .left_banner .show {
+    left: 0;
+    opacity: 1;
+}
+
+.activity_banner .right_banner {
+    height: 398px;
+    width: 215px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.activity_banner .right_banner .banner-item {
+    display: block;
+    margin: 13px auto 0;
+    height: 180px;
+    width: 190px;
+    overflow: hidden;
+    background: #eee;
+}
+
+.activity_banner .activity_main_content {
+    width: 1200px;
+}
+
+.activity_body_content .activity_main_content .nav_times {
+    width: 1200px;
+    height: 55px;
+    position: relative;
+    font-size: 22px;
+    z-index: 22;
+    color: #999;
+    background: #323232;
+}
+
+.activity_body_content .activity_main_content .nav_times .colorBox {
+    width: 1200px;
+    position: absolute;
+    height: 55px;
+}
+
+.activity_body_content .activity_main_content .nav_times .controller {
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.activity_body_content .activity_main_content .nav_times .controller .ctrl-item {
+    background: url(../images/controller.png) no-repeat;
+    position: absolute;
+    z-index: 6;
+    cursor: pointer;
+    width: 20px;
+    height: 55px;
+    display: none;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.activity_body_content .activity_main_content .nav_times .controller .controller_right {
+    right: 0;
+    background-position: 0 -55px;
+}
+
+.activity_body_content .activity_main_content .nav_times .colorBox::after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #fdcb00;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -10px;
+}
+
+.activity_body_content .activity_main_content .nav_times .colorBox .centerBox {
+    width: 133px;
+    height: 55px;
+    background: #fdcb00;
+    margin: 0 auto;
+}
+
+.activity_body_content .activity_main_content .nav_times .nav_content {
+    position: absolute;
+    width: 2793px;
+    left: -798px;
+    font-family: "微软雅黑";
+}
+
+.activity_body_content .activity_main_content .nav_times .nav_content .nav_item {
+    width: 133px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.activity_body_content .activity_main_content .nav_times .nav_content .nav_item .seckill-time {
+    font-size: 17px;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.activity_body_content .activity_main_content .nav_times .nav_content .nav_item .seckill-status {
+    font-size: 14px;
+    line-height: 1;
+    padding-top: 4px;
+    font-weight: 700;
+}
+
+.activity_body_content .activity_main_content .nav_times .nav_content .nav_item_fontColor {
+    color: #000;
+}
+
+.activity_body_content .activity_main_content .time_goods {
+    position: relative;
+}
+
+.activity_body_content .activity_main_content .time_goods::after {
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list {
+    width: 960px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_header {
+    height: 40px;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_header span {
+    font-size: 20px;
+    color: #333;
+    line-height: 2;
+    font-family: "微软雅黑";
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_header .timer {
+    font-size: 20px;
+    color: #333;
+    line-height: 2;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_header .timer span {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #ffffff;
+    padding: 5px;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_body {
+    min-height: 800px;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_body .item-list {
+    margin-left: -20px;
+    display: none;
+}
+.activity_waterfall .contents .item-list {
+    margin-left: -20px;
+
+}
+
+ .item-list .item {
+    width: 468px;
+    height: 216px;
+    margin: 20px 0 0 20px;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+ .item-list .item .item_img {
+    display: block;
+    height: 190px;
+    width: 190px;
+    margin: 13px;
+    background: #fff url(../images/kuaiqiang.png) 50%;
+    background-size: cover;
+    overflow: hidden;
+    float: left;
+}
+
+ .item-list .item .item_detail {
+    height: 186px;
+    width: 232px;
+    _width: 210px;
+    padding: 15px;
+    padding-left: 5px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    font-family: "微软雅黑";
+}
+
+ .item-list .item .item_detail .title {
+    color: #333;
+    font-size: 18px;
+    height: 18px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+
+ .item-list .item .item_detail .price {
+    color: #424242;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+ .item-list .item .item_detail .price .cur {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fe4566;
+    margin: 0 5px;
+}
+
+ .item-list .item .item_detail .price .old {
+    font-size: 14px;
+    color: #999;
+}
+
+ .item-list .item .item_detail .status_bar_box {
+    position: relative;
+}
+
+ .item-list .item .item_detail .status_bar_box .status_bar_text {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+ .item-list .item .item_detail .status_bar_box .status_bar {
+    border: 1px solid #ff71b5;
+    border-radius: 3px;
+    width: 60%;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+ .item-list .item .item_detail .status_bar_box .status_bar .status_bar_progress {
+    position: absolute;
+    height: 10px;
+    width: 5%;
+    background-color: #ffbddd;
+    z-index: 1;
+}
+
+ .item-list .item .item_detail .buy_btn_box {
+    position: absolute;
+    bottom: 15px;
+    font-size: 14px;
+    overflow: hidden;
+    height: 34px;
+    font-family: "微软雅黑";
+}
+
+ .item-list .item .item_detail .buy_btn_box .buy_btn {
+    width: 110px;
+    height: 32px;
+    font-size: 17px;
+    line-height: 32px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    background: #fe4566;
+}
+
+ .item-list .item .item_detail .buy_btn_box .buy_text {
+    margin-left: 15px;
+    color: silver;
+}
+
+ .right_menu {
+    width: 215px;
+    height: 587px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: 385px;
+    margin-top: 15px;
+    float: left;
+}
+
+ .right_menu .banner {
+    width: 80%;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+ .right_menu .category-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ .right_menu .category-list li {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+    float: left;
+}
+
+ .right_menu .category-list li a {
+    font-family: "微软雅黑";
+    font-weight: 800;
+}
+
+ .right_menu .qr-code-box {
+    width: 162px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ .right_menu .qr-code-box .qr-code {
+    margin: 0 auto;
+    width: 162px;
+    height: 162px;
+}
+
+ .right_menu .qr-code-box .qr-text {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 25px;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_foot {
+    float: left;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.activity_body_content .activity_main_content .time_goods .left_goods_list .centent_foot .footer-btn {
+    display: inline-block;
+    background: #fdcb00;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 28px;
+}
+
+activity_waterfall{
+    position: relative;
+}
+
+.activity_waterfall .waterfall {
+    width: 960px;
+    margin-bottom: 50px;
+}
+
+.activity_waterfall .waterfall .full-col {
+    width: 100%;
+    height: 40px;
+    font-family: "微软雅黑";
+}
+
+.activity_waterfall .waterfall .full-col .title {
+    color: #333;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.activity_waterfall .waterfall .full-col .left-tip {
+    color: #666;
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.foot {
+    overflow: hidden;
+    height: 180px;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: 0 0;
+}
+
+.foot .wrap {
+    height: 180px;
+}
+
+
+
+

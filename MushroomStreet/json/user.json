@@ -1,0 +1,30 @@
+{
+  "u1":{
+    "uid":"1",
+    "uname":"zzy",
+    "pwd":"123456",
+    "head-p":"images/uove4_ifqtcnbshe3taobzg4zdambqgyyde_640x960.jpg_100x100.v1cAC.70.webp",
+    "sex":"男"
+  },
+  "u2":{
+    "uid":"2",
+    "uname":"xiaohong",
+    "pwd":"123456",
+    "head-p":"images/uove4_ifqtcnbshe3taobzg4zdambqgyyde_640x960.jpg_100x100.v1cAC.70.webp",
+    "sex":"男"
+  },
+  "u3":{
+    "uid":"3",
+    "uname":"ss",
+    "pwd":"123456",
+    "head-p":"images/uove4_ifqtcnbshe3taobzg4zdambqgyyde_640x960.jpg_100x100.v1cAC.70.webp",
+    "sex":"男"
+  },
+  "u4":{
+    "uid":"4",
+    "uname":"xiaolu",
+    "pwd":"123456",
+    "head-p":"images/uove4_ifqtcnbshe3taobzg4zdambqgyyde_640x960.jpg_100x100.v1cAC.70.webp",
+    "sex":"男"
+  }
+}

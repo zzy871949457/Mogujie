@@ -1,0 +1,766 @@
+{
+  "1": {
+    "side": "#B4A48D",
+    "top": {
+      "title": "蘑菇优选",
+      "link": [
+        "家纺",
+        "穿搭",
+        "美妆",
+        "餐厨",
+        "男友",
+        "杂货"
+      ]
+    },
+    "hot": [
+      "亲肤毛巾",
+      "四件套",
+      "天然沐浴",
+      "精油养护",
+      "内衣套装",
+      "典雅餐具"
+    ],
+    "leftBlock": {
+      "background": "#F4EED6",
+      "bigTitle": "蘑菇优选",
+      "smallTitle": "专注生活美学",
+      "img": "images/s1.jpg"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "人气新款",
+        "smallTitle": "美妆新宠 女神必备",
+        "img": "images/s1-1.jpg"
+      },
+      "2": {
+        "bigTitle": "热卖好货",
+        "smallTitle": "TOP超值推荐",
+        "img": "images/s1-2.jpg"
+      },
+      "3": {
+        "bigTitle": "新人专享",
+        "smallTitle": "特惠尝鲜9.9元起",
+        "img": "images/s1-3.jpg"
+      },
+      "4": {
+        "bigTitle": "精选专题",
+        "smallTitle": "百年精油 保湿亮白",
+        "img": "images/s1-4.jpg"
+      },
+      "5": {
+        "bigTitle": "名品制造商",
+        "smallTitle": "MUJI制造商直供",
+        "img": "images/s1-5.jpg"
+      },
+      "6": {
+        "bigTitle": "全球进口",
+        "smallTitle": "让下厨变得更有趣",
+        "img": "images/s1-6.jpg"
+      }
+    }
+  },
+  "2": {
+    "side": "#9F86CF",
+    "top": {
+      "title": "品牌",
+      "link": [
+        "阿么",
+        "暮思小姐",
+        "森马",
+        "宿本",
+        "匡威"
+      ]
+    },
+    "hot": [
+      "衬衫",
+      "单鞋",
+      "双肩包",
+      "运动鞋",
+      "牛仔裤",
+      "口红"
+    ],
+    "leftBlock": {
+      "background": "#ECDAF5",
+      "bigTitle": "品牌精选",
+      "smallTitle": "潮牌尖货 初春焕新",
+      "img": "images/s2.jpg"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "潮流女装",
+        "smallTitle": "开春潮搭 这些卫衣你准备好了吗",
+        "img": "images/s2-1.jpg"
+      },
+      "2": {
+        "bigTitle": "人气美包",
+        "smallTitle": "这些包包将成为你的新宠",
+        "img": "images/s2-2.jpg"
+      },
+      "3": {
+        "bigTitle": "品牌女鞋",
+        "smallTitle": "火到现在的小白鞋",
+        "img": "images/s2-3.jpg"
+      },
+      "4": {
+        "bigTitle": "时尚运动",
+        "smallTitle": "吸睛帆布鞋 经典再现",
+        "img": "images/s2-4.jpg"
+      },
+      "5": {
+        "bigTitle": "潮牌男友",
+        "smallTitle": "新品上市 潮流入侵",
+        "img": "images/s2-5.jpg"
+      },
+      "6": {
+        "bigTitle": "最IN美妆",
+        "smallTitle": "护肤正当时",
+        "img": "images/s2-6.jpg"
+      }
+    }
+  },
+  "3": {
+    "side": "#FFA1B8",
+    "top": {
+      "title": "女装",
+      "link": [
+        "美裙套装",
+        "牛仔裤",
+        "连衣裙",
+        "衬衫"
+      ]
+    },
+    "hot": [
+      "连衣裙",
+      "棒球外套",
+      "风衣",
+      "牛仔外套",
+      "阔腿裤",
+      "半身裙"
+    ],
+    "leftBlock": {
+      "background": "#FCE6EE",
+      "bigTitle": "潮流女装",
+      "smallTitle": "春季美衣 每日上新",
+      "img": "images/s3.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "时髦套装",
+        "smallTitle": "春季新搭配 赚够回头率",
+        "img": "images/s3-1.jpg"
+      },
+      "2": {
+        "bigTitle": "显瘦裤子",
+        "smallTitle": "今年裤子特别潮",
+        "img": "images/s3-2.jpg"
+      },
+      "3": {
+        "bigTitle": "人气美裙",
+        "smallTitle": "红人都爱这些款",
+        "img": "images/s3-3.jpg"
+      },
+      "4": {
+        "bigTitle": "潮流T恤",
+        "smallTitle": "颜值直逼外套的新T",
+        "img": "images/s3-4.jpg"
+      },
+      "5": {
+        "bigTitle": "春季外套",
+        "smallTitle": "现在不买更待何时",
+        "img": "images/s3-5.jpg"
+      },
+      "6": {
+        "bigTitle": "休闲卫衣",
+        "smallTitle": "保暖又好搭 品质才60",
+        "img": "images/s3-6.jpg"
+      }
+    }
+  },
+  "4": {
+    "side": "#FFC97A",
+    "top": {
+      "title": "女鞋",
+      "link": [
+        "人气美鞋",
+        "单鞋",
+        "运动鞋"
+      ]
+    },
+    "hot": [
+      "粗跟鞋",
+      "板鞋",
+      "休闲鞋",
+      "一脚蹬",
+      "牛津鞋",
+      "穆勒鞋"
+    ],
+    "leftBlock": {
+      "background": "#FCE6DE",
+      "bigTitle": "美鞋尝鲜",
+      "smallTitle": "超值劲折 直降300",
+      "img": "images/s4.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "人气单鞋",
+        "smallTitle": "红人私藏 助你成为时髦精",
+        "img": "images/s4-1.jpg"
+      },
+      "2": {
+        "bigTitle": "“星”款小白鞋",
+        "smallTitle": "简约大牌 秒杀路人甲",
+        "img": "images/s4-2.jpg"
+      },
+      "3": {
+        "bigTitle": "青春运动",
+        "smallTitle": "舒适百搭 5折焕新",
+        "img": "images/s4-3.jpg"
+      },
+      "4": {
+        "bigTitle": "潮范厚底",
+        "smallTitle": "给你170的即视感",
+        "img": "images/s4-4.jpg"
+      },
+      "5": {
+        "bigTitle": "减龄帆布",
+        "smallTitle": "18岁的秘诀 减龄必败款",
+        "img": "images/s4-5.jpg"
+      },
+      "6": {
+        "bigTitle": "名媛高跟",
+        "smallTitle": "秒变大长腿 撩汉必备",
+        "img": "images/s4-6.jpg"
+      }
+    }
+  },
+  "5": {
+    "side": "#7CACEF",
+    "top": {
+      "title": "男友",
+      "link": [
+        "上衣",
+        "型裤",
+        "潮鞋",
+        "贴身私物"
+      ]
+    },
+    "hot": [
+      "内搭",
+      "T恤",
+      "牛仔系列",
+      "板鞋",
+      "情侣装",
+      "帆布鞋"
+    ],
+    "leftBlock": {
+      "background": "#CEE2FE",
+      "bigTitle": "绝配男友",
+      "smallTitle": "焕新节 领券立减200",
+      "img": "images/s5.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "火了10年的夹克",
+        "smallTitle": "人气热销 IN季必备3折起",
+        "img": "images/s5-1.jpg"
+      },
+      "2": {
+        "bigTitle": "时尚先锋の卫衣",
+        "smallTitle": "甩掉矜持 39元潮男优选",
+        "img": "images/s5-2.jpg"
+      },
+      "3": {
+        "bigTitle": "99%男生都会买",
+        "smallTitle": "新锐好鞋TOP榜 直降¥100",
+        "img": "images/s5-3.jpg"
+      },
+      "4": {
+        "bigTitle": "牛仔裤让人上瘾",
+        "smallTitle": "只要¥49 长腿秘技秒变1米8",
+        "img": "images/s5-4.jpg"
+      },
+      "5": {
+        "bigTitle": "帆布鞋，超值经典",
+        "smallTitle": "买了1万双都不够 0％买错率",
+        "img": "images/s5-5.jpg"
+      },
+      "6": {
+        "bigTitle": "一件衬衫穿四季",
+        "smallTitle": "收藏量破10000+的抢手货",
+        "img": "images/s5-6.jpg"
+      }
+    }
+  },
+  "6": {
+    "side": "#83C0E6",
+    "top": {
+      "title": "包包",
+      "link": [
+        "学院双肩",
+        "短款钱包",
+        "刺绣徽章",
+        "男士手拿包"
+      ]
+    },
+    "hot": [
+      "宽肩带",
+      "马鞍包",
+      "怪萌包",
+      "锁扣包",
+      "铂金包",
+      "旅行箱包"
+    ],
+    "leftBlock": {
+      "background": "#A7DAEF",
+      "bigTitle": "包包",
+      "smallTitle": "焕新5折抢",
+      "img": "images/s6.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "斜挎包",
+        "smallTitle": "17新款 全新来袭",
+        "img": "images/s6-1.jpg"
+      },
+      "2": {
+        "bigTitle": "双肩包",
+        "smallTitle": "踏春必备 必备双肩包",
+        "img": "images/s6-2.jpg"
+      },
+      "3": {
+        "bigTitle": "手提包",
+        "smallTitle": "印花元素 多彩手提包",
+        "img": "images/s6-3.jpg"
+      },
+      "4": {
+        "bigTitle": "单肩包",
+        "smallTitle": "解放双手 尽在单肩包",
+        "img": "images/s6-4.jpg"
+      },
+      "5": {
+        "bigTitle": "拉杆箱",
+        "smallTitle": "旅行好伴侣 品质拉杆箱",
+        "img": "images/s6-5.jpg"
+      },
+      "6": {
+        "bigTitle": "钱包",
+        "smallTitle": "买款钱包 给钱一个交代",
+        "img": "images/s6-6.jpg"
+      }
+    }
+  },
+  "7": {
+    "side": "#F34C68",
+    "top": {
+      "title": "内衣",
+      "link": [
+        "文胸",
+        "无钢圈内衣",
+        "隐形文胸",
+        "卡通内裤",
+        "安全裤",
+        "塑身衣",
+        "吊带背心",
+        "抹胸"
+      ]
+    },
+    "hot": [
+      "无痕内衣",
+      "调整内衣",
+      "性感睡衣",
+      "情侣睡衣",
+      "船袜",
+      "堆堆袜"
+    ],
+    "leftBlock": {
+      "background": "#F8DBDF",
+      "bigTitle": "性感内衣",
+      "smallTitle": "开春焕新  招桃小套路",
+      "img": "images/s7.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "少女文胸7折焕新",
+        "smallTitle": "这些罩罩好穿又好看",
+        "img": "images/s7-1.jpg"
+      },
+      "2": {
+        "bigTitle": "睡衣也要美上天",
+        "smallTitle": "春季睡衣时髦开售",
+        "img": "images/s7-2.jpg"
+      },
+      "3": {
+        "bigTitle": "直男躺倒款",
+        "smallTitle": "舒适甜美型内裤29元起",
+        "img": "images/s7-3.jpg"
+      },
+      "4": {
+        "bigTitle": "百搭神器美袜",
+        "smallTitle": "不露一截袜子怎么时髦",
+        "img": "images/s7-4.jpg"
+      },
+      "5": {
+        "bigTitle": "开春甩肉装备",
+        "smallTitle": "2017运动不偷懒",
+        "img": "images/s7-5.jpg"
+      },
+      "6": {
+        "bigTitle": "随性睡裙宅家更性感",
+        "smallTitle": "开启宅家模式",
+        "img": "images/s7-6.jpg"
+      }
+    }
+  },
+  "8": {
+    "side": "#6786BB",
+    "top": {
+      "title": "配饰",
+      "link": [
+        "手表",
+        "珍珠耳环",
+        "银饰",
+        "猫眼太阳镜"
+      ]
+    },
+    "hot": [
+      "框架眼镜",
+      "棒球帽",
+      "戒指",
+      "耳饰",
+      "锁骨链",
+      "墨镜"
+    ],
+    "leftBlock": {
+      "background": "#DEEAFF",
+      "bigTitle": "出街潮帽",
+      "smallTitle": "优选好货 潮派十足",
+      "img": "images/s8.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "时尚墨镜",
+        "smallTitle": "与女神只差一副墨镜",
+        "img": "images/s8-1.jpg"
+      },
+      "2": {
+        "bigTitle": "手表上新",
+        "smallTitle": "手腕上的性感与优雅",
+        "img": "images/s8-2.jpg"
+      },
+      "3": {
+        "bigTitle": "珍珠耳环",
+        "smallTitle": "拉高颜值的耳环原来是它",
+        "img": "images/s8-3.jpg"
+      },
+      "4": {
+        "bigTitle": "迷人项链",
+        "smallTitle": "让你”颈“上添花",
+        "img": "images/s8-4.jpg"
+      },
+      "5": {
+        "bigTitle": "女神手链",
+        "smallTitle": "招桃花小物戴起来",
+        "img": "images/s8-5.jpg"
+      },
+      "6": {
+        "bigTitle": "小众情侣戒",
+        "smallTitle": "年轻就要与众不同",
+        "img": "images/s8-6.jpg"
+      }
+    }
+  },
+  "9": {
+    "side": "#95CD75",
+    "top": {
+      "title": "运动",
+      "link": [
+        "时髦套装",
+        "小白鞋",
+        "人气潮鞋",
+        "瑜伽服",
+        "性感泳衣",
+        "减脂神器"
+      ]
+    },
+    "hot": [
+      "框架眼镜",
+      "棒球帽",
+      "戒指",
+      "耳饰",
+      "锁骨链",
+      "墨镜"
+    ],
+    "leftBlock": {
+      "background": "#E6F2DF",
+      "bigTitle": "运动焕新会场",
+      "smallTitle": "NB耐克199元起",
+      "img": "images/s9.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "运动鞋",
+        "smallTitle": "出街运动新风尚",
+        "img": "images/s9-1.jpg"
+      },
+      "2": {
+        "bigTitle": "瘦身神器",
+        "smallTitle": "爱上马甲线",
+        "img": "images/s9-2.jpg"
+      },
+      "3": {
+        "bigTitle": "运动套装",
+        "smallTitle": "修身更显好身材",
+        "img": "images/s9-3.jpg"
+      },
+      "4": {
+        "bigTitle": "运动裤",
+        "smallTitle": "宽松不挑人",
+        "img": "images/s9-4.jpg"
+      },
+      "5": {
+        "bigTitle": "卫衣/外套",
+        "smallTitle": "衣柜必备单品",
+        "img": "images/s9-5.jpg"
+      },
+      "6": {
+        "bigTitle": "品牌夯售",
+        "smallTitle": "阿迪vans直降300",
+        "img": "images/s9-6.jpg"
+      }
+    }
+  },
+  "10": {
+    "side": "#FFA1B8",
+    "top": {
+      "title": "美妆",
+      "link": [
+        "春季保湿",
+        "素颜霜",
+        "悦诗风吟",
+        "洗面奶"
+      ]
+    },
+    "hot": [
+      "面膜",
+      "套装",
+      "底妆",
+      "口红",
+      "眼妆",
+      "洁面"
+    ],
+    "leftBlock": {
+      "background": "#FFD3E4",
+      "bigTitle": "护肤彩妆",
+      "smallTitle": "春日焕新 底价抢购",
+      "img": "images/s10.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "春日水光肌",
+        "smallTitle": "护肤到位 元气十足",
+        "img": "images/s10-1.jpg"
+      },
+      "2": {
+        "bigTitle": "约会妆扮怦然心动",
+        "smallTitle": "回头率100%！",
+        "img": "images/s10-2.jpg"
+      },
+      "3": {
+        "bigTitle": "女神个护清单",
+        "smallTitle": "勾勒曼妙春姿",
+        "img": "images/s10-3.jpg"
+      },
+      "4": {
+        "bigTitle": "唤醒春日新肌",
+        "smallTitle": "深层清洁 宛若新生",
+        "img": "images/s10-4.jpg"
+      },
+      "5": {
+        "bigTitle": "清透底妆无瑕美肌",
+        "smallTitle": "无限回购的好妆品！",
+        "img": "images/s10-5.jpg"
+      },
+      "6": {
+        "bigTitle": "懒人美体塑形法",
+        "smallTitle": "瘦瘦瘦！美美美！",
+        "img": "images/s10-6.jpg"
+      }
+    }
+  },
+  "11": {
+    "side": "#CD947F",
+    "top": {
+      "title": "家居",
+      "link": [
+        "家纺",
+        "纸品洗液",
+        "家用电器",
+        "数码"
+      ]
+    },
+    "hot": [
+      "手机周边",
+      "毛巾浴巾",
+      "四件套",
+      "纸品洗液",
+      "家用电器",
+      "抱枕"
+    ],
+    "leftBlock": {
+      "background": "#EBE7DE",
+      "bigTitle": "新春家居",
+      "smallTitle": "让生活更精致",
+      "img": "images/s11.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "品质好床品",
+        "smallTitle": "让睡觉成为真正的享受",
+        "img": "images/s11-1.jpg"
+      },
+      "2": {
+        "bigTitle": "创意礼物",
+        "smallTitle": "好礼物，只为最真的心意",
+        "img": "images/s11-2.jpg"
+      },
+      "3": {
+        "bigTitle": "新春装饰",
+        "smallTitle": "给家换点不一样的颜色",
+        "img": "images/s11-3.jpg"
+      },
+      "4": {
+        "bigTitle": "趣味餐具",
+        "smallTitle": "让吃与喝变得更有趣",
+        "img": "images/s11-4.jpg"
+      },
+      "5": {
+        "bigTitle": "美容电器",
+        "smallTitle": "精致生活从变美开始",
+        "img": "images/s11-5.jpg"
+      },
+      "6": {
+        "bigTitle": "大牌手机",
+        "smallTitle": "换新机正当时",
+        "img": "images/s11-6.jpg"
+      }
+    }
+  },
+  "12": {
+    "side": "#8ED8D0",
+    "top": {
+      "title": "母婴",
+      "link": [
+        "春季必备",
+        "裙子",
+        "卫衣",
+        "妈咪套装",
+        "玩具用品"
+      ]
+    },
+    "hot": [
+      "套装",
+      "外套",
+      "裤子",
+      "裙子",
+      "运动鞋",
+      "孕妇装"
+    ],
+    "leftBlock": {
+      "background": "#E0F2F8",
+      "bigTitle": "辣妈潮宝",
+      "smallTitle": "品质精选，裸价回馈",
+      "img": "images/s12.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "小公主",
+        "smallTitle": "赛过小网红",
+        "img": "images/s12-1.jpg"
+      },
+      "2": {
+        "bigTitle": "小王子",
+        "smallTitle": "堪比小男神",
+        "img": "images/s12-2.jpg"
+      },
+      "3": {
+        "bigTitle": "孕妈",
+        "smallTitle": "美过维多利亚",
+        "img": "images/s12-3.jpg"
+      },
+      "4": {
+        "bigTitle": "新生儿",
+        "smallTitle": "萌过小天孙",
+        "img": "images/s12-4.jpg"
+      },
+      "5": {
+        "bigTitle": "童鞋",
+        "smallTitle": "品质有保证",
+        "img": "images/s12-5.jpg"
+      },
+      "6": {
+        "bigTitle": "瘦身变美",
+        "smallTitle": "选这里就对了",
+        "img": "images/s12-6.jpg"
+      }
+    }
+  },
+  "13": {
+    "side": "#FF7700",
+    "top": {
+      "title": "食品",
+      "link": [
+        "辣味食",
+        "巧克力",
+        "果干蜜饯",
+        "糖果",
+        "肉干肉食"
+      ]
+    },
+    "hot": [
+      "火鸡面",
+      "饼干",
+      "坚果",
+      "花草茶",
+      "糕点",
+      "辣味食"
+    ],
+    "leftBlock": {
+      "background": "#FDE2B7",
+      "bigTitle": "食品",
+      "smallTitle": "1折起囤春游零食",
+      "img": "images/s13.png"
+    },
+    "centerBlock": {
+      "1": {
+        "bigTitle": "零食大礼包",
+        "smallTitle": "爱她，就送零食大礼包",
+        "img": "images/s13-1.jpg"
+      },
+      "2": {
+        "bigTitle": "休闲零食",
+        "smallTitle": "yo，你的追剧必备",
+        "img": "images/s13-2.jpg"
+      },
+      "3": {
+        "bigTitle": "茶酒冲饮",
+        "smallTitle": "瘦10斤喝出来",
+        "img": "images/s13-3.jpg"
+      },
+      "4": {
+        "bigTitle": "方便速食",
+        "smallTitle": "别说你不爱泡面",
+        "img": "images/s13-4.jpg"
+      },
+      "5": {
+        "bigTitle": "熟食",
+        "smallTitle": "辣味食爱好者入",
+        "img": "images/s13-5.jpg"
+      },
+      "6": {
+        "bigTitle": "养颜滋补",
+        "smallTitle": "由内而外美美美",
+        "img": "images/s13-6.jpg"
+      }
+    }
+  }
+}

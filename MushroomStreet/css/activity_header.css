@@ -1,0 +1,74 @@
+.activity_header {
+    background: #f46;
+    height: 47px;
+    margin-bottom: 20px;
+}
+
+.activity_header .logo {
+    float: left;
+    width: 124px;
+    height: 28px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-indent: -999em;
+    background: url("../images/activityLogo.png") no-repeat;
+}
+
+.activity_header .activity_menu {
+    float: left;
+    margin-left: 27px;
+}
+
+.activity_header .activity_menu .activity_item {
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+    margin: 10px 30px 0;
+    padding: 0 3px;
+}
+
+.activity_header .activity_menu .active {
+    border-bottom: 3px solid #fff;
+}
+
+
+.activity_header .activity_list {
+    margin-top: 10px;
+}
+
+.activity_header .activity_list .item {
+    margin-left: 20px;
+}
+
+.activity_header .activity_list i {
+    background: url(../images/activity_list.png) no-repeat 0 0;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.activity_header .activity_list span {
+    display: inline-block;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.activity_header .activity_list .item2 i {
+    background-position: 0 -36px;
+}
+
+.activity_header .activity_list .item3 i {
+    background-position: 0 -72px;
+}
+
+
+
+
+
+
+

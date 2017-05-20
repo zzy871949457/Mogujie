@@ -1,0 +1,216 @@
+.buy {
+    margin-top: 10px;
+    height: 184px;
+}
+
+.buy .wrap {
+    height: 184px;
+}
+
+.buy .wrap .leftBox {
+    width: 470px;
+    height: 184px;
+}
+
+.buy .wrap .mainBlock {
+    display: block;
+    position: relative;
+    width: 214px;
+    height: 100%;
+    border-right: 1px solid #e5e5e5;
+    overflow: hidden;
+    background: #fff;
+}
+
+.buy .wrap .mainBlock .kq {
+    height: 43px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 17px;
+    overflow: hidden;
+}
+
+.buy .wrap .mainBlock .kq .spcate-timer {
+    text-align: center;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    opacity: 0.7;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.buy .wrap .spcate-subinfos .spcate-timer {
+    text-align: center;
+    width: 84px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    opacity: 0.7;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.buy .wrap .mainBlock .kq .spcate-label {
+    display: block;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    right: 12px;
+    bottom: 11px;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 12px;
+    z-index: 5;
+    background: #f57;
+}
+
+.buy .wrap .mainBlock .kq .spcate-label .spcate-price-title {
+    text-align: center;
+    margin-top: 14px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.buy .wrap .mainBlock .kq .spcate-label .labelTxt {
+    height: 15px;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+.buy .wrap .mainBlock .spcate-bigImg {
+    width: 120px;
+    height: 120px;
+    margin: 1px auto 0;
+}
+
+.buy .wrap .mainBlock .spcate-bigImg img {
+    width: 100%;
+}
+
+.buy .wrap .mainBlock .kq .font-title {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+
+.buy .wrap .spcate-subblocks {
+    height: 100%;
+    width: 254px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.buy .wrap .spcate-subblocks .aaa {
+    display: block;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    height: 91px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.buy .wrap .spcate-subblocks .aaa .spcate-subinfos {
+    margin: 20px auto 0;
+    padding-left: 17px;
+    width: 130px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+}
+
+.buy .wrap .spcate-subblocks .aaa .spcate-subinfos .font-title {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 18px;
+    color: #333333;
+}
+
+.buy .wrap .spcate-subblocks .aaa .spcate-subinfos .font-subTitle {
+    height: 17px;
+    line-height: 17px;
+    overflow: hidden;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.buy .wrap .spcate-subblocks .aaa .spcate-subgoodsimg {
+    display: block;
+    width: 80px;
+    height: 86px;
+    margin: 6px 10px 0 auto;
+}
+
+.buy .wrap .spcate-subblocks .aaa .spcate-subgoodsimg img {
+    width: 100%;
+}
+
+.buy .wrap .centerBox {
+    width: 480px;
+    height: 184px;
+    margin-left: 10px;
+}
+
+.buy .wrap .rightBox {
+    width: 240px;
+    height: 184px;
+}
+
+.buy .wrap .rightBox .container {
+    width: 240px;
+    height: 184px;
+    overflow: hidden;
+    display: block;
+    background: #fff;
+}
+
+.buy .wrap .rightBox .container .infos {
+    height: 43px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 17px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+}
+
+.buy .wrap .rightBox .container .infos .font-title {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 18px;
+    color: #333333;
+}
+
+.buy .wrap .rightBox .container .infos .font-subTitle {
+    height: 17px;
+    line-height: 17px;
+    overflow: hidden;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.buy .wrap .rightBox .container .bigImg {
+    width: 120px;
+    height: 120px;
+    margin: 1px auto 0;
+}
+
+.buy .wrap .rightBox .container .bigImg img {
+    width: 100%;
+}

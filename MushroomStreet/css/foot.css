@@ -1,0 +1,16 @@
+.foot {
+    min-width: 1200px;
+    overflow: hidden;
+    min-height: 180px;
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.foot .wrap {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    height: 230px;
+    background: url("../images/zxczczxcxzcz.jpg") no-repeat 20px center;
+}
+

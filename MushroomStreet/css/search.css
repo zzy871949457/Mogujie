@@ -1,0 +1,157 @@
+.search {
+    height: 90px;
+    min-width: 1200px;
+}
+
+.search .wrap {
+    height: 90px;
+    overflow: visible;
+}
+
+.search .logo {
+    float: left;
+    width: 240px;
+    height: 90px;
+    overflow: hidden;
+    background: url(../images/312.gif) no-repeat left center;
+}
+
+.search .search-content {
+    width: 482px;
+    height: 90px;
+    float: left;
+    margin-left: 120px;
+}
+
+.search .search-content .top_nav_search {
+    position: relative;
+    z-index: 50;
+    width: 482px;
+    margin-top: 20px;
+}
+
+.search_box {
+    border: 1px solid #f07;
+    width: 480px;
+    height: 34px;
+    border-radius: 0 6px 6px 0;
+}
+
+.search_box .selectBox {
+    position: relative;
+    float: left;
+    width: 60px;
+    z-index: 10;
+    text-align: center;
+}
+
+.search_box .selectBox .selected {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    color: #f07;
+    cursor: pointer;
+    background-color: #fff;
+    background: url(../images/sanjiao.png) no-repeat center right;
+}
+
+.top_nav_form {
+    overflow: hidden;
+    height: 34px;
+}
+
+.top_nav_form .ts_txt {
+    display: block;
+    overflow: hidden;
+    width: 305px;
+    height: 22px;
+    line-height: 22px;
+    padding: 6px 0 6px 10px;
+    border: none;
+    color: #999;
+    font-size: 12px;
+    background-color: #fff;
+    float: left;
+}
+
+.top_nav_form .s-btn {
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    width: 100px;
+    background-color: #f07;
+    background-image: linear-gradient(to right, #f25, #ff1581);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+.ts_hotWords {
+    width: 482px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.ts_hotWords a {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 12px 0 0;
+}
+
+.search .search-content .top_nav_search .ts_hotWords a:hover {
+    color: #ff4466;
+}
+
+.search .mid_fr {
+    float: right;
+    height: 90px;
+    width: 220px;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.search .mid_fr img {
+    height: 100%;
+    float: right;
+}
+
+.top_nav_form .search_content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    width: 320px;
+    z-index: 999;
+    font-size: 12px;
+    border: 1px solid #f07;
+    overflow-Y: auto;
+    overflow-X:hidden;
+    height: 286px;
+    background-color: #fff;
+}
+
+.top_nav_form .search_content li {
+    padding: 0 10px;
+    height: 34px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.top_nav_form .search_content li:hover {
+    background-color: #ffeef4;
+}
+
+.top_nav_form .search_content .title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    color: #333;
+}

@@ -1,0 +1,115 @@
+.rightNav {
+    position: fixed;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    width: 30px;
+    right: 0;
+    color: #fff;
+    font-size: 12px;
+    background: #202020;
+}
+
+.rightNav .sidebar-item {
+    position: relative;
+    padding: 4px 4px 0;
+    text-align: center;
+    background: #202020;
+}
+
+.rightNav .mgj_rightbar_blank_div {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 10%;
+    width: 30px;
+}
+
+.rightNav .sidebar-item a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    border-bottom: 1px solid rgba(221, 221, 221, .6);
+    padding-bottom: 12px;
+}
+
+.rightNav .sidebar-item a img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.rightNav .cart {
+    background: #202020;
+}
+
+.rightNav .cart a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    border-bottom: 1px solid rgba(221, 221, 221, .6);
+    padding-bottom: 12px;
+}
+
+.rightNav .cart a .s-icon {
+    display: block;
+    background-position: -271px -129px;
+}
+
+.rightNav .sidebar-item .s-icon {
+    background: url("../images/bidicon.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.rightNav .sidebar-item:hover {
+    background-color: #ef2f23;
+}
+
+.rightNav .sidebar-item:hover .num {
+    background: #fff;
+    color: #ef2f23;
+}
+
+.rightNav .sidebar-item a .num {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    background-color: #ef2f23;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+.rightNav .coupon a .s-icon {
+    background-position: -271px -159px;
+}
+
+.rightNav .money a .s-icon {
+    background-position: -271px -219px;
+}
+
+.rightNav .zuji a .s-icon {
+    background-position: -271px -189px;
+}
+
+.rightNav .sideBottom {
+    position: absolute;
+    bottom: 0px;
+    width: 30px;
+    display: none;
+}
+
+.rightNav .sideBottom a {
+    border-top: 1px solid rgba(221, 221, 221, .6);
+    padding-top: 4px;
+}
+
+.rightNav .sideBottom .s-icon {
+    background-position: -270px -279px;
+}

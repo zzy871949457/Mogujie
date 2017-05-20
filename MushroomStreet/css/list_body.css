@@ -1,0 +1,332 @@
+.list_body .wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list_body .sp_topbanner {
+    border: 1px solid #e5e5e5;
+    margin-top: 30px;
+}
+
+.list_body .sp_topbanner .sp_top_nav {
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 15px;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.list_body .sp_topbanner .sp_top_nav .nav_list {
+    height: 38px;
+    font-size: 0;
+    overflow: hidden;
+    width: 1183px;
+}
+
+.list_body .sp_topbanner .sp_top_nav .nav_list li {
+    width: 65px;
+    cursor: pointer;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.list_body .sp_topbanner .sp_top_nav .nav_list .on {
+    background-color: #fff;
+    height: 39px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.list_body .sp_topbanner .sp_top_nav .nav_list .on a {
+    border-top: 2px solid #f46;
+}
+
+.list_body .sp_topbanner .sp_top_nav .nav_list a {
+    display: block;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    font-family: Microsoft Yahei;
+    color: #333;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.list_body .sp_topbanner .sp_type_nav {
+    padding: 30px 20px 20px 30px;
+    font-size: 0;
+    height: 230px;
+}
+
+.goodsList {
+    display: none;
+}
+
+.goodsList .right_img {
+    float: right;
+    padding-left: 20px;
+    border-left: 1px dashed #e5e5e5;
+    margin-top: -10px;
+}
+
+.goodsList .right_img img {
+    width: 200px;
+    height: 240px;
+    border: 0;
+}
+
+.goodsList .type_sections {
+    display: inline-block;
+    width: 925px;
+}
+
+.goodsList .type_sections .type_section {
+    float: left;
+    width: 435px;
+    height: 96px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+.goodsList .type_sections .first {
+    margin-bottom: 30px;
+}
+
+.goodsList .type_sections dt {
+    overflow: hidden;
+}
+
+.goodsList .type_sections dt a {
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333;
+}
+
+.goodsList .type_sections dd {
+    margin-top: 10px;
+    vertical-align: top;
+    height: 68px;
+    overflow: hidden;
+}
+
+.goodsList .type_sections dd .cat_img {
+    float: left;
+    height: 66px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.goodsList .type_sections dd .cat_img img {
+    width: 66px;
+    height: 66px;
+    border: 0;
+}
+
+.goodsList .type_sections dd ul li::after {
+    content: "";
+    width: 1px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -6px;
+    background: #e5e5e5;
+}
+
+.goodsList .type_sections dd ul li {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.goodsList .type_sections dd ul li a {
+    height: 12px;
+    line-height: 11px;
+    padding: 4px 6px;
+    display: inline-block;
+    color: #333;
+    overflow: hidden;
+    font-size: 12px;
+    margin: 0 10px;
+    float: left;
+    font-family: "微软雅黑";
+}
+
+.goodsList .type_sections dd ul li a:hover {
+    text-decoration: underline;
+}
+
+.sub_title {
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-family: Microsoft Yahei;
+}
+
+.wall_goods_box {
+    overflow: hidden;
+}
+
+.wall_goods_box .nav_container {
+    position: relative;
+    border: 1px solid #e5e5e5;
+    z-index: 12;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.wall_goods_box .nav_container .nav_left {
+    font-size: 0;
+    height: 24px;
+    padding: 7px 0;
+    width: 631px;
+    line-height: 24px;
+}
+
+.wall_goods_box .nav_container .nav_left .sort_container .sort {
+    padding: 0 20px;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "微软雅黑";
+}
+
+.wall_goods_box .nav_container .nav_left .sort_container .on {
+    color: #f36;
+    font-weight: 700;
+}
+
+.wall_goods_box .nav_container .nav_left .price {
+    margin-left: 20px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wall_goods_box .nav_container .nav_left .price .txt {
+    float: left;
+    width: 46px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    border: 1px solid #dadada;
+    font-size: 12px;
+}
+
+.wall_goods_box .nav_container .nav_left .price .txt .rmb {
+    float: left;
+    color: #999;
+}
+
+.wall_goods_box .nav_container .nav_left .price .txt input {
+    float: left;
+    border: none;
+    width: 34px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.wall_goods_box .nav_container .nav_left .price .divid {
+    float: left;
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.wall_goods_box .nav_container .nav_left .price .sbt {
+    background: none;
+    border: 1px solid #dadada;
+    color: #333;
+    width: 45px;
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.wall_goods_box .nav_container .nav_left .price_choice {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    border-left: 1px solid #e5e5e5;
+    height: 24px;
+}
+
+.wall_goods_box .nav_container .nav_left .price_choice .price_citem {
+    width: 74px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    font-size: 0;
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    border-left: none;
+    padding: 0;
+    float: left;
+}
+
+.wall_goods_box .nav_container .nav_left .price_choice .price_citem a {
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    font-family: "微软雅黑";
+}
+
+.wall_goods_box .box {
+    width: 1225px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.wall_goods_box .page_container {
+    text-align: center;
+}
+
+.wall_goods_box .page_container a {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 0 8px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+.wall_goods_box .page_container span {
+    display: inline-block;
+    margin-right: 12px;
+    padding: 0 8px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+.wall_goods_box .page_container .s {
+    background: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

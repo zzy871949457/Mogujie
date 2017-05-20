@@ -1,0 +1,82 @@
+#topSearch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 1px 6px 0 #ccc;
+    z-index: 9999;
+    background: #ffffff;
+}
+
+#topSearch .wrap {
+    height: 50px;
+}
+
+#topSearch .logo-wrap {
+    float: left;
+    width: 240px;
+    height: 43px;
+    overflow: hidden;
+    margin-top: 7px;
+}
+
+#topSearch .logo-wrap .logo {
+    position: relative;
+    width: 200px;
+    height: 43px;
+    float: left;
+    overflow: hidden;
+}
+
+#topSearch .logo-wrap .logo .search_nav_menu {
+    display: inline-block;
+    width: 130px;
+    height: 64px;
+    line-height: 64px;
+    padding: 0px 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+    top: -14px;
+}
+
+#topSearch .logo-wrap .logo .search_nav_menu .nav_menu_logo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: transparent url("../images/sadasdasda.png") no-repeat center center;
+}
+
+#topSearch .logo-wrap .logo .search_nav_menu .nav_menu_all {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: rgb(255, 0, 119);
+    margin-left: 5px;
+    vertical-align: middle;
+    line-height: 64px;
+    cursor: pointer;
+}
+
+#topSearch .logo-wrap .logo .search_nav_menu .nav_menu_icon {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    width: 0px;
+    float: left;
+    height: 0px;
+    vertical-align: middle;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(255, 0, 119) transparent transparent;
+}
+
+#topSearch .sticky-search-content {
+    width: 475px;
+    float: left;
+    margin-left: 120px;
+    height: 43px;
+    padding-top: 7px;
+}

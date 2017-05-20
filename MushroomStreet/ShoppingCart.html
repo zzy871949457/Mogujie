@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/rightNav.css">
+    <link rel="stylesheet" href="css/ShoppingCart.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/public.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="js/cart.js"></script>
+    <!--<script type="text/javascript" src="js/ShoppingCart.js"></script>-->
+</head>
+<body style="background: #f5f5f5;">
+<div id="header" class="header"></div>
+<div class="headerLogo">
+    <div class="wrap">
+        <div class="logo_cart"></div>
+    </div>
+</div>
+<div class="detail" style="background: #fff;">
+    <div class="wrap">
+        <ul class="cartSlide">
+            <li>
+                <a href="###" class="item item_cur">
+                    全部商品
+                    <span class="num">0</span>
+                </a>
+            </li>
+            <li>
+                <a href="###" class="item">
+                    优惠
+                    <span class="num">0</span>
+                </a>
+            </li>
+            <li>
+                <a href="###" class="item">
+                    库存紧张
+                    <span class="num">0</span>
+                </a>
+            </li>
+        </ul>
+        <table class="cart_table">
+            <thead style="background: #F6F6F6;">
+                <tr>
+                    <th class="cart_table_check_wrap cart_alleft">
+                        <input type="checkbox" class="s_all tr_checkmr" id="topAll">
+                        <label for="topAll">全选</label>
+                    </th>
+                    <th class="cart_table_goods_wrap"></th>
+                    <th class="cart_table_goodsinfo_wrap">商品信息</th>
+                    <th>单价(元)</th>
+                    <th class="cart_table_goodsnum_wrap">数量</th>
+                    <th class="cart_table_goodssum_wrap">小计(元)</th>
+                    <th class="cart_table_goodsctrl_wrap">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--<tr class="shop_header">-->
+                    <!--<td class="cart_group_head">-->
+                        <!--<input type="checkbox" class="tr_checkmr"/>-->
+                        <!--<a href="###" class="cart_bold">约会店</a>-->
+                    <!--</td>-->
+                <!--</tr>-->
+                <!--<tr class="cart_mitem">-->
+                    <!--<td class="vm">-->
+                        <!--<input type="checkbox" class="cart_thcheck"/>-->
+                    <!--</td>-->
+                    <!--<td class="cart_table_goods_wrap">-->
+                        <!--<a href="###" class="cart_goods_img">-->
+                            <!--<img src="images/GoodsDetails/ttt.jpg"/>-->
+                        <!--</a>-->
+                        <!--<a href="###" class="cart_goods_t"> 2017春季韩版港风情侣款拼色背后个性字母印花棒球服夹克外套 </a>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                        <!--<p class="cart_lh20">颜色：蓝色（不加棉）</p>-->
+                        <!--<p class="cart_lh20">尺码：L</p>-->
+                    <!--</td>-->
+                    <!--<td class="cart_alcenter">-->
+                        <!--<p class="cart_lh20 cart_throughline cart_lightgray">112.86</p>-->
+                        <!--<p class="cart_lh20 cart_bold">77.87</p>-->
+                    <!--</td>-->
+                    <!--<td class="cart_alcenter">-->
+                        <!--<div class="cart_num">-->
+                            <!--<input type="text" value="1" class="cart_num_input cart_bold">-->
+                            <!--<span class="cart_num_add"></span>-->
+                            <!--<span class="cart_num_reduce"></span>-->
+                        <!--</div>-->
+                    <!--</td>-->
+                    <!--<td class="cart_alcenter">-->
+                        <!--<p class="xj">233.61</p>-->
+                    <!--</td>-->
+                    <!--<td class="cart_alcenter">-->
+                        <!--<a href="###" class="deleteP">删除</a>-->
+                    <!--</td>-->
+                <!--</tr>-->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="cart_table_check_wrap cart_alleft">
+                        <input type="checkbox" class="s_all tr_checkmr" id="bottomAll">
+                        <label for="bottomAll">全选</label>
+                    </th>
+                    <th class="deleteAll">
+                        <a href="###" id="cartRemoveChecked" class="mr10 cart_hoverline cart_pregray">删除</a>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th class="allNum">
+                        共有
+                        <span id="allNum">0</span>
+                        件商品，总计：
+                    </th>
+                    <th class="selectPrice">
+                        <span id="allPrice">¥ 0.00</span>
+                    </th>
+                    <th class="pay fr">
+                        <a href="###" id="payBtn">去付款</a>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+</body>
+</html>

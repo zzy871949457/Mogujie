@@ -1,0 +1,235 @@
+.auto_show {
+    height: 300px;
+    min-width: 1200px;
+}
+
+.auto_show .wrap {
+    height: 300px;
+    margin-top: 40px;
+}
+
+.auto_show .leftCarousel {
+    height: 300px;
+    width: 950px;
+    overflow: hidden;
+}
+
+.auto_show .leftCarousel .box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.auto_show .leftCarousel .box .mslide_title {
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.auto_show .leftCarousel .box .mslide_title .mslide_title_block {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    width: 7px;
+    height: 22px;
+    background: #FF8BA9;
+    vertical-align: bottom;
+}
+
+.auto_show .leftCarousel .box .mslide_banners {
+    position: absolute;
+    width: 4750px;
+    height: 260px;
+    bottom: 0px;
+    background-color: #f5f5f5;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner {
+    width: 950px;
+    height: 100%;
+    float: left;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item {
+    height: 100%;
+    width: 310px;
+    margin-right: 10px;
+    overflow: hidden;
+    float: left;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_top {
+    overflow: hidden;
+    display: block;
+    width: 310px;
+    height: 155px;
+    background: turquoise;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_top .user_pic {
+    position: absolute;
+    min-width: 50px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    line-height: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_top .user_pic .user_name {
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_top .user_pic img {
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 12px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_top img {
+    width: 100%;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_bottom {
+    height: 105px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_bottom .good_content {
+    display: block;
+    width: 60px;
+    height: 85px;
+    margin-top: 14px;
+    margin-left: 14px;
+    float: left;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item .mslide_banner_item_bottom .good_content img {
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+
+.auto_show .leftCarousel .box .mslide_banners .mslide_banner .mslide_banner_item:last-child {
+    margin-right: 0px;
+}
+
+.auto_show .leftCarousel .box .btn {
+    position: absolute;
+    top: 50%;
+    width: 34px;
+    height: 60px;
+    opacity: 0;
+    z-index: 10;
+    background: url("../images/ll.png") no-repeat;
+}
+
+.auto_show .leftCarousel .box .leftA {
+    left: 0;
+}
+
+.auto_show .leftCarousel .box .rightA {
+    right: 0;
+    background-position: -50px 0;
+}
+
+.auto_show .leftCarousel .box .dot_box {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: 0;
+    z-index: 10;
+    text-align: right;
+}
+
+.auto_show .leftCarousel .box .dot_box .dot_default {
+    width: 29px;
+    height: 29px;
+    padding: 0;
+    background-position: -100px -40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 11px;
+    background: #ccc;
+    display: block;
+    border-radius: 50%;
+    float: left;
+    margin-left: 3px;
+    color: #fff;
+}
+
+.auto_show .leftCarousel .box .dot_box .dot_show {
+    background: #000;
+}
+
+.auto_show .popular {
+    position: relative;
+    height: 300px;
+    width: 240px;
+
+}
+
+.auto_show .popular .right_popular_content {
+    position: absolute;
+    height: 260px;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.auto_show .popular .right_popular_content .right_popular_title {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+.auto_show .popular .right_popular_content .right_popular_goods {
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.auto_show .popular .right_popular_content .right_popular_goods .right_popular_content_good {
+    display: block;
+    height: 80px;
+    width: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.auto_show .popular .right_popular_content .right_popular_goods .right_popular_content_good img {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    transition: opacity 0.2s;
+}
+
+.auto_show .popular .right_popular_content .right_popular_goods .right_popular_content_good .good_title {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.auto_show .popular .right_popular_content .right_popular_goods .right_popular_content_good:hover {
+    text-decoration: underline;
+}
+

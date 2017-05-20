@@ -1,0 +1,470 @@
+.body_content {
+    background: #f5f5f5;
+    min-width: 1200px;
+}
+
+.body_content .head {
+    height: 40px;
+    border-bottom: 2px solid #f07;
+    background: #fff;
+}
+
+.body_content .head .wrap {
+    height: 40px;
+}
+
+.body_content .head .wrap .indexLeftLink {
+    background: url("../images/131743902_57fa7026k3k6eghdcl5cgl8aalckk_257x40.png");
+    width: 182px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.body_content .head .wrap .indexLeftLink .indexLeftTitle {
+    position: absolute;
+    left: 47px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+
+.body_content .head .wrap .indexRightLink a {
+    display: block;
+    height: 20px;
+    width: 140px;
+    margin-top: 10px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    float: left;
+    color: #000
+}
+
+.body_content .head .wrap .indexRightLink a:hover {
+    color: #f07;
+}
+
+.body_content .banner {
+    height: 440px;
+    margin-bottom: 20px;
+}
+
+.body_content .banner .wrap {
+    height: 440px;
+}
+
+.body_content .banner .wrap .bannerNav {
+    width: 256px;
+    position: relative;
+    z-index: 100;
+    height: 440px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.body_content .banner .wrap .bannerNav .nav_li {
+    margin: 0;
+    padding: 0 !important;
+    height: 31px;
+    overflow: hidden;
+    font-family: 'PingFang SC';
+    border-left: 2px solid transparent;
+}
+
+#nav_list {
+    padding-top: 6px;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li:hover {
+    background: #999;
+    border-left: 2px solid #f07;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li a:hover {
+    text-decoration: underline;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap {
+    margin: 0;
+    padding: 5px 0 5px 18px;
+    vertical-align: top;
+    overflow: hidden;
+    border-left: 2px solid transparent;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap .nav_title {
+    height: 21px;
+    line-height: 21px;
+    float: left;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap .nav_title a {
+    font-family: 'PingFang SC';
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap .nav_content {
+    float: left;
+    height: 21px;
+    line-height: 23px;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap .nav_content .nav_content_span {
+    display: inline-block;
+    height: 100%;
+}
+
+.body_content .banner .wrap .bannerNav .nav_li .nav_wrap .nav_content .nav_content_span a {
+    display: inline-block;
+    height: 100%;
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+    margin-left: 15px;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 777px;
+    height: 438px;
+    overflow: hidden;
+    background-color: #fff;
+    opacity: 1;
+    border-top: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    display: none;
+    z-index: 2;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent {
+    display: none;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent {
+    width: 500px;
+    height: 100%;
+    padding: 0 0 0 20px;
+    float: left;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .rightContent {
+    float: right;
+    height: 440px;
+    width: 256px;
+    background: #f6f6f6;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .rightContent .right_head_h2 {
+    width: 100%;
+    height: 19px;
+    line-height: 19px;
+    font-size: 16px;
+    margin: 11px auto 0;
+    color: #333333;
+    text-align: center;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .rightContent .right_head_h3 {
+    width: 100%;
+    height: 14px;
+    margin: 4px auto 2px;
+    text-align: center;
+    line-height: 14px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .rightContent img {
+    display: block;
+    width: 100px;
+    height: 120px;
+    float: left;
+    margin: 6px 4px 2px 17px;
+    cursor: pointer;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .rightContent {
+
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_head a {
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: 600;
+    font-family: "PingFang SC";
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_dl {
+    width: 500px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_dl .left_dt {
+    width: 500px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .last_dl {
+    height: 90px;
+    margin-bottom: 0;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .last_dl .logo_wrap {
+    display: block;
+    width: 90px;
+    height: 50px;
+    margin-left: 5px;
+    float: left;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .last_dl .logo_wrap .logo-wrap-anchor {
+    float: left;
+    width: 54px;
+    height: 54px;
+    margin: 0 5px;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_dl .left_dd {
+    max-height: 50px;
+    overflow: hidden;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #999;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_dl .left_dd .left_dd_a {
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin: 6px 20px 0 0;
+    cursor: pointer;
+}
+
+.body_content .banner .wrap .bannerNav .nav_more_content .showContent .leftContent .left_dl .left_dd a:hover {
+    text-decoration: underline;
+}
+
+.body_content .banner .wrap .bannerLunBo {
+    width: 778px;
+    height: 440px;
+}
+
+.body_content .banner .wrap .userInfo {
+    width: 166px;
+    height: 420px;
+    margin-top: 10px;
+    font-family: "PingFang SC", Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+}
+
+.body_content .banner .wrap .bannerLunBo .box {
+    position: relative;
+    width: 778px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.body_content .banner .wrap .bannerLunBo .box .imgBanner {
+    height: 440px;
+    background: thistle;
+}
+
+.body_content .banner .wrap .bannerLunBo .box .imgBanner img {
+    position: absolute;
+}
+
+.body_content .banner .wrap .bannerLunBo .box .spanBox {
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+
+.body_content .banner .wrap .bannerLunBo .box .spanBox .dian {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../images/ll.png") no-repeat;
+    background-position: -97px -18px;
+}
+
+.body_content .banner .wrap .bannerLunBo .box .spanBox .showDian {
+    background-position: -157px -18px;
+
+}
+
+.body_content .banner .wrap .bannerLunBo .box .imgBanner img {
+    display: none;
+}
+
+.body_content .banner .wrap .userInfo .base_info {
+    position: relative;
+    width: 166px;
+    height: 195px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.body_content .banner .wrap .userInfo .base_info .avatar {
+    display: block;
+    text-decoration: none;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 0 auto;
+    border-radius: 100%;
+    background: #ff94c6 url(../images/user.png) no-repeat center center;
+}
+
+.body_content .banner .wrap .userInfo .base_info .member {
+    position: absolute;
+    top: 58px;
+    right: 47px;
+    height: 24px;
+    width: 24px;
+    background-image: url(../images/vip0.png);
+    background-size: 100% 100%;
+}
+
+.body_content .banner .wrap .userInfo .base_info .welcome {
+    font: normal 12px/1.5 'PingFang SC';
+    font-size: 12px;
+    margin: 5px 0 7px 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.body_content .banner .wrap .userInfo .base_info .welcome .name {
+    font-weight: bold;
+    width: 90%;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.body_content .banner .wrap .userInfo .base_info .vipCenter {
+    display: block;
+    width: 72px;
+    height: 24px;
+    border: 1px solid #ff5777;
+    font-size: 12px;
+    color: #ff5777;
+    margin: 0 auto;
+    line-height: 24px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.body_content .banner .wrap .userInfo .base_info .vipCenter:hover {
+    background: #ff5777;
+}
+
+.body_content .banner .wrap .userInfo .base_info .vipCenter:hover span {
+    color: #fff;
+}
+
+.body_content .banner .wrap .userInfo .base_info .order_info .wrapper {
+    padding-top: 10px;
+    border-top: 1px solid #fff;
+    width: 135px;
+    margin: 7px auto 0;
+    display: none;
+}
+
+.body_content .banner .wrap .userInfo .base_info .order_info .wrapper .order {
+    margin-left: 5px;
+    text-align: center;
+}
+
+.body_content .banner .wrap .userInfo .base_info .order_info .wrapper .order .title {
+    font-size: 12px;
+    color: #333;
+}
+
+.body_content .banner .wrap .userInfo .base_info .order_info .wrapper .order .m_title {
+    padding: 0 5px;
+}
+
+.body_content .banner .wrap .userInfo .base_info .order_info .wrapper .order .num {
+    font-size: 20px;
+    color: #ff0077;
+    font-weight: bold;
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper {
+    margin-top: 10px;
+    width: 166px;
+    height: 205px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .user-propa {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .propaganda {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    font: normal 12px/1.5 'PingFang SC';
+    line-height: 1.4;
+    text-align: center;
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .propaganda .top_title {
+    font-size: 16px;
+    color: #333;
+    padding-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-weight: 600;
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .propaganda .top-desc {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-family: "微软雅黑";
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .live_show {
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.body_content .banner .wrap .userInfo .foot_wrapper .live_show img {
+    width: 100%;
+}
+

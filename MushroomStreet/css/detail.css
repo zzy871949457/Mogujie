@@ -1,0 +1,319 @@
+.detail{
+    height: 680px;
+    width:100%;
+}
+body .detail_wrap{
+    background: #fff;
+}
+/*大图*/
+.d_left{
+    width: 1058px;
+    height: 669px;
+    overflow: hidden;
+}
+.left1{
+    width: 400px;
+    height: 100%;
+}
+.left2{
+    width: 537px;
+    height: 100%;
+    padding-left: 20px;
+}
+.big-img {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+}
+.d_right {
+    width: 141px;
+    height: 558px;
+    overflow: hidden;
+    border-left: 1px solid #eee;
+}
+.small-img{
+    overflow: hidden;
+    position: relative;
+    height: 59px;
+    width: 350px;
+    margin-top: 10px;
+    padding: 0 32px
+}
+.small-img ul {
+    margin: 0 auto;
+    width: 9999px;
+    position: absolute;
+}
+.small-img ul li {
+    width: 60px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    float: left;
+    height: 60px;
+}
+.small-img img{
+    width: 100%;
+    height: 100%;
+}
+.list{
+    overflow: hidden;
+    position: relative;
+    height: 59px;
+    width: 350px;
+}
+.small-img .arrow-btn {
+    background-image: url("../images/detail_bj.png");
+    width: 12px;
+    height: 22px;
+    position: absolute;
+    top: 17px;
+    display: none;
+}
+.left-btn {
+    background-position: -10px -256px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 10px;
+    height: 19px;
+    left: 0;
+}
+.goods-title {
+    font-family: Microsoft YaHei,arial;
+    color: #333;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.property{
+    min-height: 20px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.style dt {
+    color: #999;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+}
+.property {
+    width: 540px;
+    margin-left: -10px;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    background: #f6f6f6;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.style{
+    min-height: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.property dl {
+    min-height: 20px;
+    position: relative;
+}
+.property-cont {
+    font-size: 14px;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+}
+.property-cont-now .price {
+    color: #ef2f23;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    float: left;
+}
+.property-type{
+    color: #999;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+}
+.left2 .property .first_price{
+    width: 540px;
+    height: 64px;
+    margin-bottom: 0;
+}
+.origin {
+    text-decoration: line-through;
+}
+.property-cont {
+    font-size: 14px;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+}
+.left2 dl{
+    margin-bottom: 20px;
+}
+/*小图*/
+.style-list {
+    max-height: 110px;
+    overflow-y: auto;
+    padding: 1px;
+}
+.style-list li {
+    position: relative;
+    margin: 0 15px 5px 0;
+    padding: 0;
+    float: left;
+    border: 2px solid #fff;
+}
+.style-list img{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #ddd
+}
+.style dt{
+    float: left;
+}
+.size li{
+    cursor: pointer;
+    float: left;
+    padding: 0 10px;
+    font-weight: 700;
+    line-height: 28px;
+    border: 1px solid #ddd;
+}
+.goods-num {
+    position: relative;
+    width: 95px;
+    height: 25px;
+    zoom: 1;
+    border: 1px solid #ddd;
+}
+.num-input {
+    width: 44px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    border: 0;
+    height: 25px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    float: left;
+    background: none;
+}
+.num-add,.num-reduce {
+    float: left;
+    width: 24px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+.num-reduce,.num-add {
+    background-image: url("http://s2.mogucdn.com/p2/170122/117603130_6a8jgjh899bh5jd6hcia3ehhj0113_221x704.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.num-add {
+    background-position: -3px -78px;
+}
+.num-reduce {
+    background-position: -3px 2px;
+}
+/*购物车*/
+.goods-buy .buy-now {
+    width: 200px;
+    background: #ef2f23;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+.buy-btn {
+    display: inline-block;
+    text-align: center;
+    font: 20px Microsoft YaHei;
+    color: #fff;
+    background: #fff;
+    height: 48px;
+    line-height: 48px;
+    float: left;
+}
+.goods-buy {
+    height:75px;
+}
+.goods-buy a{
+    margin-left: 20px;
+}
+.goods-buy a:first-of-type{
+    margin-left:50px;
+}
+
+.buy-cart {
+    width: 198px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+/*right*/
+.title_hot{
+    color: #666;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.list_hot {
+    height: 650px;
+    overflow: hidden;
+    width: 120px;
+    position: relative;
+}
+.list_hot li:first-child {
+    margin-top: 1px;
+}
+.list_hot li{
+    position: relative;
+    display: block;
+    background-color: #f5f5f5;
+    width: 120px;
+    height: 180px;
+    overflow: hidden;
+}
+.list_hot span {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.list_hot img{
+    width: 120px;
+    height: 128px;
+}
+.style-list1 li:hover{
+    border:1px solid #666;
+}
+.style-list li img:hover {
+    border: 1px solid #666;
+}
+/*点击加样式*/
+.style-list .choose{
+    background: url("../images/choose.png") 100% 100% no-repeat;
+    border: 1px solid #666;
+}
+.small_wrap .opa{
+    opacity: 1;
+}
+
+
+

@@ -1,0 +1,328 @@
+.module_row {
+    min-width: 1200px;
+    height: 398px;
+}
+
+.module_row .wrap {
+    height: 398px;
+    margin-top: 40px;
+}
+
+.module_row .top_element {
+    height: 22px;
+    color: #666;
+    line-height: 22px;
+    overflow: hidden;
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+
+.module_row .top_element .sideIcon {
+    float: left;
+    width: 8px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.module_row .top_element .titleName {
+    float: left;
+    margin-right: 30px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+.module_row .top_element .linkBox {
+    float: left;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.module_row .top_element .linkBox .topLink {
+    margin: 0 16px;
+    font-size: 14px;
+    color: #666;
+}
+
+.module_row .top_element .linkBox .topLink:hover {
+    text-decoration: underline;
+}
+
+.module_row .bottom_content {
+    overflow: hidden;
+    height: 360px;
+    width:960px;
+    float: left;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.module_row .bottom_content .leftBlock {
+    display: block;
+    width: 240px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+
+.module_row .bottom_content .leftBlock .hot {
+    width: 210px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.module_row .bottom_content .leftBlock .hot .hotWord {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 57px;
+    height: 27px;
+    margin: 0 10px 10px 0;
+    float: left;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid 1px rgba(0, 0, 0, 0.15);
+    font-family: "微软雅黑";
+}
+
+.module_row .bottom_content .leftBlock .hot .hotWord:hover {
+    background: #666;
+}
+
+.module_row .bottom_content .leftBlock .txtContent {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.module_row .bottom_content .leftBlock .txtContent .bigTitle {
+    top: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 26px;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #333;
+}
+
+.module_row .bottom_content .leftBlock .txtContent .smallTitle {
+    top: 160px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    z-index: 2;
+    position: absolute;
+    color: #666;
+    width: 100%;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.module_row .bottom_content .leftBlock .txtContent .bigImg {
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+
+}
+
+.module_row .publicImg {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.module_row .publicImg:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.module_row .bottom_content .centerBlock {
+    width: 720px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.module_row .bottom_content .centerBlock .picBlock {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.module_row .bottom_content .centerBlock .picBlock .pic_item {
+    position: relative;
+    display: block;
+    width: 238px;
+    height: 180px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    overflow: hidden;
+    float: left;
+}
+
+.module_row .bottom_content .centerBlock .picBlock .pic_item .bigTitle {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 18px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #333;
+    font-family: "微软雅黑";
+}
+
+.module_row .bottom_content .centerBlock .picBlock .pic_item .smallTitle {
+    position: absolute;
+    height: 17px;
+    top: 42px;
+    width: 100%;
+    z-index: 2;
+    line-height: 17px;
+    font-size: 14px;
+    color: #999;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+
+.module_row .bottom_content .centerBlock .picBlock .pic_item .picBox {
+    position: absolute;
+    width: 140px;
+    height: 110px;
+    overflow: hidden;
+    top: 70px;
+    left: 50px;
+}
+
+.module_row .rightRec {
+    width: 240px;
+    height: 360px;
+    overflow: hidden;
+    background: #fff;
+    float: left;
+}
+
+.module_row .rightRec .rightBlock {
+    width: 240px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.module_row .rightRec .rightBlock .goodsTitle {
+    font-size: 17px;
+    text-indent: 20px;
+    height: 56px;
+    line-height: 56px;
+    float: left;
+    color: #333;
+    font-family: 微软雅黑;
+}
+
+.module_row .rightRec .rightBlock .changeNew {
+    float: right;
+    font-size: 12px;
+    text-indent: 20px;
+    height: 56px;
+    line-height: 56px;
+    color: #5f5f5f;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+.module_row .rightRec .rightBlock .changeNew .changePic {
+    height: 13px;
+    width: 13px;
+    float: left;
+    margin-right: -13px;
+    margin-top: 21px;
+    background: url("../images/change.png") no-repeat center center;
+    background-size: contain;
+}
+
+.module_row .rightRec .rightBlock .recGoodsBox {
+    width: 100%;
+    height: 66px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;;
+}
+
+.module_row .rightRec .rightBlock .recGoodsBox .recGoodsPicBox {
+    width: 66px;
+    height: 66px;
+    margin: 0 20px;
+    float: left;
+}
+
+.module_row img {
+    width: 100%;
+}
+
+.module_row .opaImg:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.module_row .rightRec .rightBlock .recGoodsBox .recGoodsInfo {
+    width: 114px;
+    overflow: hidden;
+    margin-right: 20px;
+    height: 100%;
+    font-family: 微软雅黑;
+}
+
+.module_row .rightRec .rightBlock .recGoodsBox .recGoodsInfo .goodsDesc {
+    height: 40px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #5f5f5f;
+}
+
+.module_row .rightRec .rightBlock .recGoodsBox .recGoodsInfo .goodsPrice {
+    float: left;
+    color: #ff5777;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.module_row .rightRec .brandBlock {
+    width: 240px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.module_row .rightRec .brandBlock .pic-item {
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+}
+
+.module_row .rightRec .brandBlock .pic-item .pic {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+.module_row .rightRec .brandBlock .pic-item .pic img {
+    width: 100%;
+}
