@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
+</head>
+<body>
+<p class="lead" style="font-family: '微软雅黑';font-weight: 700;font-size:30px">我 要 留 言<a style="float: right;margin-right: 50px;margin-top: 10px;" href="/">返回首页 <span aria-hidden="true">&rarr;</span></a></p>
+<hr style=" height:2px;border:none;border-top:2px solid #E3CEF6;"/>
+<form method="post" action="/users/comment">
+    <textarea class="form-control" rows="5" placeholder="剩下的事件交给你，写下你要对我说的话！谢谢" name="content"></textarea>
+
+    <hr style=" border:none;border-top:1px dashed #E3CEF6;"/>
+
+    <button style="width:45%;height:50px;margin-right: 5%;" type="submit" class="btn btn-success">发 布 留 言</button>
+    <button style="width:45%;height:50px;" type="button" class="btn btn-info" onclick="location.href='/users/commentB'">返
+        回 留 言 板
+    </button>
+</form>
+</body>
+</html>

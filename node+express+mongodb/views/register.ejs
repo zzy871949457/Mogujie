@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
+</head>
+<style type="text/css">
+    .error_tip {
+        background: url(/images/loginErrar.png) 12px no-repeat #fffff8;
+        border: 1px solid #ffd797;
+        height: 30px;
+        line-height: 30px;
+        color: #ff1877;
+        width: 100%;
+        padding-left: 40px;
+        margin-top: 9px;
+        /*margin-bottom: 9px;*/
+        text-align: left;
+        display: none;
+    }
+</style>
+<body>
+<h1>注册
+    <small> Register</small>
+</h1>
+<hr/>
+<form class="form-horizontal" method="post" action="/users/rg">
+
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</label>
+        <div class="col-sm-10" id="axm">
+            <input id="xm" type="text" class="form-control bg-danger" name="cName" placeholder="请输入中文姓名">
+            <p style="opacity:0;" id="xm-Error" class="error_tip">格式：姓名不能为空</p>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">用&nbsp;户&nbsp;名：</label>
+        <div class="col-sm-10">
+            <input id="userName" type="text" class="form-control bg-danger" name="userName" placeholder="请输入用户名">
+            <p style="display: none;" id="userName-Error" class="error_tip">格式：以字母开头，长度不小于6位，不多于30位</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+        <div class="col-sm-10">
+            <input id="pwd" type="password" class="form-control bg-danger" name="pwd" placeholder="请输入密码">
+            <p style="display: none;" id="pwd-Error" class="error_tip">格式：密码长度不小于6位</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-info">注 册</button>
+            <button type="button" class="btn btn-default" onclick="location.href='/'">返回主页</button>
+        </div>
+    </div>
+</form>
+</body>
+<script type="text/javascript">
+    var axm = document.getElementById('axm')
+
+    //姓名
+    var xm = document.getElementById('xm');
+    var xmError = document.getElementById('xm-Error');
+    //用户名
+    var userName = document.getElementById('userName');
+    var userNameError = document.getElementById('userName-Error');
+    //密码
+    var pwd = document.getElementById('pwd');
+    var pwdError = document.getElementById('pwd-Error');
+
+    /**
+     * 失去焦点的时候获取姓名的值进行判断
+     */
+    xm.onblur = function () {
+        if (xm.value.length == 0) {
+//            xmError.style.display = "block";
+//            xmError.style. = '1';
+            xmError.style.cssText = 'display:block;transition-duration:1s';
+        } else {
+//            xmError.style.display = 'none';
+//            xmError.style.cssText = 'transform: scale(1);transform: 1s'
+        }
+    }
+
+    userName.onblur = function () {
+        if (userName.value.length == 0) {
+            userNameError.style.display = 'block';
+        } else {
+            userNameError.style.display = 'none';
+        }
+    }
+
+    pwd.onblur = function () {
+        if (pwd.value.length == 0) {
+            pwdError.style.display = 'block';
+            pwdError.style.cssText = 'transition: all 1s;'
+
+        } else {
+            pwdError.style.display = 'none';
+        }
+    }
+
+</script>
+</html>

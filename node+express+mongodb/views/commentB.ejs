@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'/>
+</head>
+<body>
+<p class="lead" style="font-family: '微软雅黑';font-weight: 700;font-size:30px">留 言 板 <a style="float: right;margin-right: 50px;margin-top: 10px;" href="/">返回首页 <span aria-hidden="true">&rarr;</span></a></p>
+<hr style=" height:2px;border:none;border-top:2px solid #E3CEF6;"/>
+<p style="font-size: 16px;font-weight: 700;">主人寄语</p>
+<hr style=" border:none;border-top:1px solid #E3CEF6;"/>
+<div style="min-height:100px; font-family: '微软雅黑'; color: #A376B8; text-indent:2em;">这一生也在进取 这分钟却挂念谁 我会说是唯独你不可失去 好风光似幻似虚 谁明人生乐趣 我会说为情为爱仍然是对 谁比你重要 成功了败了也完全无重要 谁比你重要 狂风与暴雨都因你燃烧 一追再追 只想追赶生命里一分一秒 原来多么可笑 你是真正目标 一追再追 追踪一些生活最基本需要 原来早不缺少 HA...... 有了你即使平凡却最重要 好光阴纵没太多 一分钟那又如何 会与你共同渡过都不枉过 疯恋多错误更多 如能从新做过 我会说愿能为你提前做错 谁比你重要 成功了败了也完全无重要 谁比你重要 狂风与暴雨都因你燃烧 一追再追 只想追赶生命里一分一秒 原来多么可笑 你是真正目标 一追再追 追踪一些生活最基本需要 原来早不缺少</div>
+<p style="font-size: 16px;font-weight: 700;">留 言 (<%- shuju.length %>)</p>
+<hr style=" border:none;border-top:1px solid #E3CEF6;"/>
+<ul class="list-group">
+    <% shuju.forEach(function(item, index){ %>
+    <li style="background: #f5f5f5;" class="list-group-item list-group-item-danger">
+        <p style="font-size: 16px; font-family:'微软雅黑';font-weight: 700;"><%- index + 1 %>楼：</p>
+        <div style=" min-height:50px; color: #000; font-family:'幼圆'; font-weight: 600; text-indent:2em;"><%- item.content %></div>
+        <hr style=" border:none;border-top:1px solid #A376B8;"/>
+    </li>
+    <% }) %>
+    <!--<div style="margin: 20px auto 0; width:200px;">-->
+        <!--<button id="pre" style="margin-right: 50px;" class="btn btn-default" type="button">上一页</button>-->
+        <!--<button id="next" class="btn btn-default" type="button">下一页</button>-->
+    <!--</div>-->
+</ul>
+
+
+
+<hr style=" border:none;border-top:1px solid #E3CEF6;"/>
+<button style="font-family: '微软雅黑';font-weight: 700;color: #A376B8;" type="button"
+        class="btn btn-default btn-lg btn-block" onclick="location.href='/comment'">我 也 要 留 言
+</button>
+</body>
+</html>
